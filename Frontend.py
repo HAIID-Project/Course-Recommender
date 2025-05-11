@@ -21,23 +21,25 @@ def login():
             st.switch_page(home)
             st.rerun()
 
+
 def logout():
     if st.button("Log out"):
         st.session_state.logged_in = False
         st.rerun()
+
 
 login_page = st.Page(login, title="Log in", icon=":material/login:")
 logout_page = st.Page(logout, title="Log out", icon=":material/logout:")
 
 settings = st.Page("pages/Settings.py", title="Settings", icon=":material/settings:", default=True)
 home = st.Page("pages/Home.py", title="Home", icon=":material/home:")
-input = st.Page("pages/Input.py", title="Interests", icon=":material/favorite:")
+input_ = st.Page("pages/Input.py", title="Interests", icon=":material/favorite:")
 courses = st.Page("pages/Courses.py", title="Courses", icon=":material/list:")
 if st.session_state.logged_in:
     pg = st.navigation(
         {
             "Account": [logout_page, settings],
-            "General": [home, input, courses],
+            "General": [home, input_, courses],
         }
     )
 else:
