@@ -1,4 +1,107 @@
+import json
 import streamlit as st
+from streamlit_extras.stylable_container import stylable_container
+def create_card(title, description, course_type):
+    max_length = 40
+    truncated_desc = (description[:max_length] + '...') if len(description) > max_length else description
+    truncated_title = (title[:max_length] + '...') if len(title) > max_length else title
+    if (course_type == "Languages"):
+        card_color = f"#6886af"
+    elif (course_type == "Programming"):
+        card_color = f"#d7adbe"
+    elif (course_type == "History"):
+        card_color = f"#ab94b0"
+    elif (course_type == "Finance"):
+        card_color = f"#116594"
+    elif (course_type == "Data"):
+        card_color = f"#242d62"
+    elif (course_type == "Medicine"):
+        card_color = f"#585387"
+    elif (course_type == "Law"):
+        card_color = f"#adb7dc"
+    elif (course_type == "Chemistry"):
+        card_color = f"#b6c6db"
+    elif (course_type == "Technology"):
+        card_color = f"#82465c"
+    elif (course_type == "Philosophy"):
+        card_color = f"#c56477"
+    else:
+        card_color = f"#003f5c"
+    is_liked = title in st.session_state.liked_courses
+    card_key = truncated_title.replace(' ', '_')
+    
+    with stylable_container(
+        key=f"outer_{card_key}",
+        css_styles="""
+            {
+                border: 1px solid rgba(49, 51, 63, 0.2);
+                border-radius: 0.5rem;
+                padding: 0;
+                margin-bottom: 0;
+                overflow: hidden;
+            }
+        """
+    ):
+        card_container = st.container()
+        
+        with card_container:
+            color_col, content_col = st.columns([1, 2])
+            
+            with color_col:
+                st.markdown(
+                    f'<div style="background-color: {card_color}; height: 150px;"></div>',
+                    unsafe_allow_html=True
+                )
+            
+            with content_col:
+                with stylable_container(
+                    key=f"content_{card_key}",
+                    css_styles="""
+                        {
+                            padding: 8px 12px 0px 12px;  /* Reduced bottom padding */
+                            height: 150px;
+                            position: relative;
+                        }
+                    """
+                ):
+                    st.markdown(
+                        f'<div style="padding-bottom: 4px; max-width: 180px;"><strong>{truncated_title}</strong></div>',
+                        unsafe_allow_html=True
+                    )
+                    
+                    st.markdown(
+                        f'<div style="padding-bottom: 4px; font-size: small">{truncated_desc}</div>',
+                        unsafe_allow_html=True
+                    )
+                    
+                    st.markdown(
+                        f'<span style="color: {card_color}; font-size: 0.8em; border: 1px solid {card_color}; '
+                        f'border-radius: 0.5rem; padding: 0.2em 0.5em; display: inline-block;">{course_type}</span>', 
+                        unsafe_allow_html=True
+                    )
+                    
+                    with stylable_container(
+                        key=f"button_{card_key}",
+                        css_styles="""
+                            {
+                                position: absolute;
+                                bottom: 8px;  /* Adjusted from 12px */
+                                right: -140px; 
+                            }
+                        """
+                    ):
+                        btn_container = st.empty()
+                        
+                        if btn_container.button(
+                            "♥️" if is_liked else "🤍",
+                            key=f"like_{card_key}",
+                            help="Like this course"
+                        ):
+                            if is_liked:
+                                st.session_state.liked_courses.remove(title)
+                            else:
+                                st.session_state.liked_courses.append(title)
+                            st.rerun()
 
 st.title("My Favorite Courses")
 
@@ -6,27 +109,22 @@ if not st.session_state.get('liked_courses'):
     st.warning("You haven't liked any courses yet!")
     st.page_link("pages/Courses.py", label="Browse Courses →")
 else:
-    # Get all course data (should match what's in Courses.py)
-    all_courses = {
-        "Project Alpha": {"description": "Advanced analytics platform", "type": "Programming"},
-        "Dashboard X": {"description": "Real-time monitoring system", "type": "Programming"},
-        "Data Explorer": {"description": "Interactive visualization tool", "type": "Design"},
-        "Model Builder": {"description": "Machine learning interface", "type": "Design"},
-        "Report Generator": {"description": "Automated PDF reports", "type": "Business"},
-        "API Gateway": {"description": "Centralized service access", "type": "Business"}
-    }
-    
-    st.write("### Your liked courses:")
-    
-    for course_title in st.session_state.liked_courses:
-        if course_title in all_courses:
-            course = all_courses[course_title]
-            with st.expander(f"{course_title} ({course['type']})"):
-                st.write(course["description"])
-                if st.button(
-                    "❌ Remove", 
-                    key=f"remove_{course_title}",
-                    type="primary"
-                ):
-                    st.session_state.liked_courses.remove(course_title)
-                    st.rerun()
+    with open('courses.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    liked_courses_data = [
+        course for course in data 
+        if course["title"] in st.session_state.liked_courses
+    ]
+    if not liked_courses_data:
+        st.warning("Couldn't find your liked courses - they may have been removed")
+    else:
+        st.write(f"### Your {len(liked_courses_data)} favorite courses:")
+        
+        cols = st.columns(2)
+        for i, course_data in enumerate(liked_courses_data):
+            with cols[i % 2]:
+                create_card(
+                    course_data["title"],
+                    course_data["description"],
+                    course_data["tag"]
+                )

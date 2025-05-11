@@ -26,13 +26,34 @@ if selected != st.session_state.get('current_pill_selection'):
 
 search = st.text_input("Search by name")
 
-def create_card(title, description, course_type):
+def create_card(title, description, course_type, course_url):
     max_length = 40
     truncated_desc = (description[:max_length] + '...') if len(description) > max_length else description
     truncated_title = (title[:max_length] + '...') if len(title) > max_length else title
-    card_color = f"#{random.randint(0, 0xFFFFFF):06x}"
-    is_liked = truncated_title in st.session_state.liked_courses
-    card_key = truncated_title.replace(' ', '_')
+    if (course_type == "Languages"):
+        card_color = f"#6886af"
+    elif (course_type == "Programming"):
+        card_color = f"#d7adbe"
+    elif (course_type == "History"):
+        card_color = f"#ab94b0"
+    elif (course_type == "Finance"):
+        card_color = f"#116594"
+    elif (course_type == "Data"):
+        card_color = f"#242d62"
+    elif (course_type == "Medicine"):
+        card_color = f"#585387"
+    elif (course_type == "Law"):
+        card_color = f"#adb7dc"
+    elif (course_type == "Chemistry"):
+        card_color = f"#b6c6db"
+    elif (course_type == "Technology"):
+        card_color = f"#82465c"
+    elif (course_type == "Philosophy"):
+        card_color = f"#c56477"
+    else:
+        card_color = f"#003f5c"
+    is_liked = title in st.session_state.liked_courses
+    card_key = f"card_{description}"
     
     with stylable_container(
         key=f"outer_{card_key}",
@@ -53,7 +74,11 @@ def create_card(title, description, course_type):
             
             with color_col:
                 st.markdown(
-                    f'<div style="background-color: {card_color}; height: 150px;"></div>',
+                    f'''
+                    <div style="background-color: {card_color}; height: 150px; position: relative;">
+                        {f'<a href="{course_url}" target="_blank" style="position: absolute; bottom: 8px; left: 8px; background: white; border: none; border-radius: 0.5rem; padding: 0.3em 0.6em; font-size: 0.8em; text-decoration: none; color: {card_color};">🔗 Visit</a>' if course_url else ''}
+                    </div>
+                    ''',
                     unsafe_allow_html=True
                 )
             
@@ -62,7 +87,7 @@ def create_card(title, description, course_type):
                     key=f"content_{card_key}",
                     css_styles="""
                         {
-                            padding: 8px 12px 0px 12px;  /* Reduced bottom padding */
+                            padding: 8px 12px 0px 12px;
                             height: 150px;
                             position: relative;
                         }
@@ -98,7 +123,7 @@ def create_card(title, description, course_type):
                         
                         if btn_container.button(
                             "♥️" if is_liked else "🤍",
-                            key=f"like_{card_key}",
+                            key=f"like_{description}",
                             help="Like this course"
                         ):
                             if is_liked:
@@ -126,7 +151,7 @@ def create_card_grid(num_columns=2):
         cols = st.columns(num_columns)
         for i, data in enumerate(filtered_data):
             with cols[i % num_columns]:
-                create_card(data["title"], data["description"], data["tag"])
+                create_card(data["title"], data["description"], data["tag"], data["link"])
         
         if not filtered_data:
             st.warning("No courses match your filters")
