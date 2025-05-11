@@ -64,6 +64,7 @@ def create_card(title, description, course_type, course_url):
                 padding: 0;
                 margin-bottom: 0;
                 overflow: hidden;
+                min-height: 180px;
             }
         """
     ):
@@ -75,8 +76,8 @@ def create_card(title, description, course_type, course_url):
             with color_col:
                 st.markdown(
                     f'''
-                    <div style="background-color: {card_color}; height: 150px; position: relative;">
-                        {f'<a href="{course_url}" target="_blank" style="position: absolute; bottom: 8px; left: 8px; background: white; border: none; border-radius: 0.5rem; padding: 0.3em 0.6em; font-size: 0.8em; text-decoration: none; color: {card_color};">🔗 Visit</a>' if course_url else ''}
+                    <div style="background-color: {card_color}; min-height: 180px;">
+                        {f'<a href="{course_url}" target="_blank" style="position: absolute; bottom: -8px; left: 8px; background: white; border: none; border-radius: 0.5rem; padding: 0.3em 0.6em; font-size: 0.8em; text-decoration: none; color: {card_color};">🔗 Visit</a>' if course_url else ''}
                     </div>
                     ''',
                     unsafe_allow_html=True
@@ -88,18 +89,18 @@ def create_card(title, description, course_type, course_url):
                     css_styles="""
                         {
                             padding: 8px 12px 0px 12px;
-                            height: 150px;
+                            min-height: 180px;
                             position: relative;
                         }
                     """
                 ):
                     st.markdown(
-                        f'<div style="padding-bottom: 4px; max-width: 180px;"><strong>{truncated_title}</strong></div>',
+                        f'<div style="padding-bottom: 4px; max-width: 70%;"><strong>{truncated_title}</strong></div>',
                         unsafe_allow_html=True
                     )
                     
                     st.markdown(
-                        f'<div style="padding-bottom: 4px; font-size: small">{truncated_desc}</div>',
+                        f'<div style="padding-bottom: 4px; font-size: small; max-width: 80%">{truncated_desc}</div>',
                         unsafe_allow_html=True
                     )
                     

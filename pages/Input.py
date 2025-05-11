@@ -1,6 +1,7 @@
 import json
 import streamlit as st
 from streamlit_extras.stylable_container import stylable_container
+
 def create_card(title, description, course_type, course_url):
     max_length = 40
     truncated_desc = (description[:max_length] + '...') if len(description) > max_length else description
@@ -28,7 +29,7 @@ def create_card(title, description, course_type, course_url):
     else:
         card_color = f"#003f5c"
     is_liked = title in st.session_state.liked_courses
-    card_key = truncated_title.replace(' ', '_')
+    card_key = f"card_{description}"
     
     with stylable_container(
         key=f"outer_{card_key}",
@@ -39,6 +40,7 @@ def create_card(title, description, course_type, course_url):
                 padding: 0;
                 margin-bottom: 0;
                 overflow: hidden;
+                min-height: 180px;
             }
         """
     ):
@@ -50,8 +52,8 @@ def create_card(title, description, course_type, course_url):
             with color_col:
                 st.markdown(
                     f'''
-                    <div style="background-color: {card_color}; height: 150px; position: relative;">
-                        {f'<a href="{course_url}" target="_blank" style="position: absolute; bottom: 8px; left: 8px; background: white; border: none; border-radius: 0.5rem; padding: 0.3em 0.6em; font-size: 0.8em; text-decoration: none; color: {card_color};">🔗 Visit</a>' if course_url else ''}
+                    <div style="background-color: {card_color}; min-height: 180px;">
+                        {f'<a href="{course_url}" target="_blank" style="position: absolute; bottom: -8px; left: 8px; background: white; border: none; border-radius: 0.5rem; padding: 0.3em 0.6em; font-size: 0.8em; text-decoration: none; color: {card_color};">🔗 Visit</a>' if course_url else ''}
                     </div>
                     ''',
                     unsafe_allow_html=True
@@ -62,19 +64,19 @@ def create_card(title, description, course_type, course_url):
                     key=f"content_{card_key}",
                     css_styles="""
                         {
-                            padding: 8px 12px 0px 12px;  /* Reduced bottom padding */
-                            height: 150px;
+                            padding: 8px 12px 0px 12px;
+                            min-height: 180px;
                             position: relative;
                         }
                     """
                 ):
                     st.markdown(
-                        f'<div style="padding-bottom: 4px; max-width: 180px;"><strong>{truncated_title}</strong></div>',
+                        f'<div style="padding-bottom: 4px; max-width: 70%;"><strong>{truncated_title}</strong></div>',
                         unsafe_allow_html=True
                     )
                     
                     st.markdown(
-                        f'<div style="padding-bottom: 4px; font-size: small">{truncated_desc}</div>',
+                        f'<div style="padding-bottom: 4px; font-size: small; max-width: 80%">{truncated_desc}</div>',
                         unsafe_allow_html=True
                     )
                     
@@ -98,7 +100,7 @@ def create_card(title, description, course_type, course_url):
                         
                         if btn_container.button(
                             "♥️" if is_liked else "🤍",
-                            key=f"like_{card_key}",
+                            key=f"like_{description}",
                             help="Like this course"
                         ):
                             if is_liked:
@@ -106,8 +108,6 @@ def create_card(title, description, course_type, course_url):
                             else:
                                 st.session_state.liked_courses.append(title)
                             st.rerun()
-
-st.title("My Favorite Courses")
 
 if not st.session_state.get('liked_courses'):
     st.warning("You haven't liked any courses yet!")
@@ -122,7 +122,7 @@ else:
     if not liked_courses_data:
         st.warning("Couldn't find your liked courses - they may have been removed")
     else:
-        st.write(f"### Your {len(liked_courses_data)} favorite courses:")
+        st.write(f"## Your {len(liked_courses_data)} favorite courses:")
         
         cols = st.columns(2)
         for i, course_data in enumerate(liked_courses_data):
