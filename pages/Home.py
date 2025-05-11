@@ -1,6 +1,8 @@
 import json
+import requests
 import streamlit as st
-# from sentence_transformers.cross_encoder import CrossEncoder
+from streamlit_extras.stylable_container import stylable_container
+
 
 def create_card(title, description, course_type, course_url):
     max_length = 40
@@ -112,23 +114,15 @@ def create_card(title, description, course_type, course_url):
                                 st.session_state.liked_courses.append(title)
                             st.rerun()
 
+
 def interest_courses(query):
-    # model = CrossEncoder("cross-encoder/stsb-distilroberta-base")
-    # with open('courses.json', 'r', encoding='utf-8') as f:
-    #     courses = {i["keywords"] + ". " + i["description"]: i for i in json.load(f)}
-    # corpus = list(courses.keys())
-    #
-    # ranks = model.rank(query, corpus)
-    interesting_courses = []
-    # if ranks[9]['score'] > 0.2:
-    #     for rank in ranks:
-    #         if rank['score'] < 0.2:
-    #             break
-    #         interesting_courses.append(courses[corpus[rank['corpus_id']]]['title'])
-    # else:
-    #     interesting_courses = [courses[corpus[rank['corpus_id']]]['title'] for rank in ranks[:3]]
-    # print(interesting_courses)
-    return interesting_courses
+    url = 'http://127.0.0.1:5000/suggest'
+    params = {'query': query}
+    response = requests.get(url, params=params)
+    if response.status_code == 200:
+        return response.json()['interest_courses']
+    else:
+        return ["Sport Algorithmic Programming", "Philosophy", "Quantum Computing. Less Formulas — More Understanding"]
 
 
 if "name" in st.session_state and "surname" in st.session_state:
@@ -144,8 +138,8 @@ if "name" in st.session_state and "surname" in st.session_state:
                 st.session_state.interests = interests
                 st.session_state.interest_courses = interest_courses(interests)
                 st.rerun()
-    else:
 
+    else:
         with st.form("revise interest form"):
             interests = st.text_input("Changed your mind? No worries! You can change your interests here!").strip()
             if st.form_submit_button():
@@ -156,12 +150,19 @@ if "name" in st.session_state and "surname" in st.session_state:
                     st.session_state.interest_courses = []
                 st.rerun()
         st.text("Based on your interests, we recommend the following courses:")
+
+        with open('courses.json', 'r', encoding='utf-8') as f:
+            card_data = json.load(f)
+
         cols = st.columns(2)
-        for i, course_data in enumerate(st.session_state.interest_courses):
-            with cols[i % 2]:
-                create_card(
-                    course_data["title"],
-                    course_data["description"],
-                    course_data["tag"],
-                    course_data["link"]
-                )
+        course_counter = 0
+        for course_data in card_data:
+            if course_data["title"] in st.session_state.interest_courses:
+                with cols[course_counter % 2]:
+                    create_card(
+                        course_data["title"],
+                        course_data["description"],
+                        course_data["tag"],
+                        course_data["link"]
+                    )
+                course_counter += 1
