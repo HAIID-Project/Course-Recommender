@@ -1,0 +1,954 @@
+[
+    {
+        "title": "The Magnificent Century: History and Culture of the Ottoman Empire",
+        "description": "Explore the Ottoman Empire's history and cultural legacy through its architectural achievements, artistic traditions, and literary contributions. Designed by leading Turkish studies professors, this course examines East-West cultural exchanges and is ideal for enthusiasts of Turkish history and Middle Eastern culture.",
+        "duration": "10–12 weeks",
+        "tag": "History",
+        "keywords": "Ottoman Empire history culture art sultans Turkey Byzantine influence",
+        "link": "https://online.spbu.ru/the-magnificent-century-history-and-culture-of-the-ottoman-empire/"
+    },
+    {
+        "title": "Sport Algorithmic Programming",
+        "description": "Master competitive programming techniques through practical C++/C# implementation. Learn to solve ICPC-level challenges, develop dynamic programming skills, and improve algorithmic problem-solving efficiency for IT professionals and programming competition participants.",
+        "duration": "5 weeks",
+        "tag": "Programming",
+        "keywords": "competitive programming algorithms ICPC C++ C# dynamic-programming graphs",
+        "link": "https://online.spbu.ru/sport-algorithmic-programming/"
+    },
+    {
+        "title": "Philosophy",
+        "description": "Explore fundamental philosophical questions about knowledge, truth, ethics, and human existence. Develop critical thinking skills through analysis of classical and modern philosophical frameworks across ontology, epistemology, and aesthetics.",
+        "duration": "12 weeks",
+        "tag": "Philosophy",
+        "keywords": "philosophy ontology epistemology ethics aesthetics mind knowledge",
+        "link": "https://online.spbu.ru/philosophy/"
+    },
+    {
+        "title": "Quantum Computing. Less Formulas — More Understanding",
+        "description": "Introduction to quantum computing principles without advanced mathematics. Learn quantum mechanics foundations, qubit operations, and practical applications including cryptography and teleportation algorithms.",
+        "duration": "82 weeks",
+        "tag": "Technology",
+        "keywords": "quantum computing qubits algorithms cryptography teleportation mathematics",
+        "link": "https://online.spbu.ru/quantum-computing-less-formulas-more-understanding-2/"
+    },
+    {
+        "title": "Machine Learning Based Econometrics",
+        "description": "Bridge traditional econometrics with modern machine learning techniques using Python. Master predictive analytics for economic forecasting and big data processing with Hadoop/Spark frameworks.",
+        "duration": "3–4 weeks",
+        "tag": "Data",
+        "keywords": "machine-learning econometrics big-data forecasting Python analytics",
+        "link": "https://online.spbu.ru/machine-learning-based-econometrics/"
+    },
+    {
+        "title": "Computational Chemistry from Molecular Properties to Reactions: Learning-by-doing",
+        "description": "Practical quantum chemistry course teaching computational prediction of chemical reactions using Linux-based tools. Gain hands-on experience with molecular modeling, potential energy surfaces, and reaction mechanisms.",
+        "duration": "10 weeks",
+        "tag": "Chemistry",
+        "keywords": "computational chemistry quantum-mechanics ab-initio DFT reactions ORCA",
+        "link": "https://online.spbu.ru/computational-chemistry-from-molecular-properties-to-reactions-learning-by-doing/"
+    },
+    {
+        "title": "Fundamentals of the Chinese Character Writing",
+        "description": "Master 214 Chinese radicals and stroke order principles through historical analysis and practical brushwork. Learn traditional calligraphy techniques and character decomposition for effective language learning.",
+        "duration": "-",
+        "tag": "Languages",
+        "keywords": "Chinese calligraphy radicals stroke-order writing culture",
+        "link": "https://online.spbu.ru/fundamentals-of-the-chinese-character-writing/"
+    },
+    {
+        "title": "All About COVID-19",
+        "description": "Comprehensive virology program covering SARS-CoV-2 biology, diagnostic methods, and post-COVID rehabilitation strategies. Learn viral pathogenesis and evidence-based recovery approaches.",
+        "duration": "-",
+        "tag": "Medicine",
+        "keywords": "COVID-19 virology rehabilitation SARS-CoV-2 diagnostics immunity",
+        "link": "https://online.spbu.ru/all-about-covid-19/"
+    },
+    {
+        "title": "Russian as a foreign language: B1. Part 1",
+        "description": "Intermediate Russian course focusing on everyday communication skills. Practice discussing travel experiences, urban environments, and personal hobbies while preparing for TRKI-1 certification.",
+        "duration": "7 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language B1 grammar listening speaking culture",
+        "link": "https://online.spbu.ru/russkij-kak-inostrannyj-b1-chast-1/"
+    },
+    {
+        "title": "Russian as a foreign language: B2",
+        "description": "Upper-intermediate Russian program emphasizing academic writing and cultural discussions. Prepare for TRKI-2 certification through analysis of Russian literature and complex grammatical structures.",
+        "duration": "14 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language B2 advanced communication grammar vocabulary",
+        "link": "https://online.spbu.ru/russkij-kak-inostrannyj-v2/"
+    },
+    {
+        "title": "Contemporary Finance",
+        "description": "Five-course specialization covering financial essentials, performance management, investment valuation, and ESG principles. Develop skills for corporate financial analysis and sustainable finance strategies.",
+        "duration": "26 weeks",
+        "tag": "Finance",
+        "keywords": "finance corporate valuation ESG accounting investments budgeting",
+        "link": "https://online.spbu.ru/contemporary-finance/"
+    },
+    {
+        "title": "Chinese in 5 Steps",
+        "description": "Comprehensive Mandarin program from pronunciation mastery to intermediate conversation. Learn 500+ characters and practical communication skills for business and cultural interactions.",
+        "duration": "-",
+        "tag": "Languages",
+        "keywords": "Chinese language A2-B1 vocabulary grammar pronunciation culture",
+        "link": "https://online.spbu.ru/chinese-in-5-steps/"
+    },
+    {
+        "title": "Arabic for Beginners",
+        "description": "Structured introduction to Modern Standard Arabic covering script mastery, basic grammar, and everyday communication. Progress from letter recognition to simple dialogues across 5 proficiency levels.",
+        "duration": "-",
+        "tag": "Languages",
+        "keywords": "Arabic alphabet pronunciation basic grammar vocabulary culture",
+        "link": "https://online.spbu.ru/arabic-for-beginners/"
+    },
+    {
+        "title": "Russian as a foreign language: B1+",
+        "description": "Bridge course strengthening B1 Russian skills through cultural topics and complex grammar. Focus on environmental discussions, Russian history, and holiday traditions.",
+        "duration": "14 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language B1+ intermediate speaking reading grammar",
+        "link": "https://online.spbu.ru/russkij-kak-inostrannyj-b1/"
+    },
+    {
+        "title": "Russian as a foreign language: from B1+ to B2",
+        "description": "Advanced Russian program developing professional communication skills and analytical text comprehension. Prepare for university-level academic work in Russian.",
+        "duration": "-",
+        "tag": "Languages",
+        "keywords": "Russian language B1+-B2 transition fluency academic skills",
+        "link": "https://online.spbu.ru/russkij-kak-inostrannyj-ot-b1-k-b2/"
+    },
+    {
+        "title": "Test of Russian as a Foreign Language (TORFL/ТРКИ): A1",
+        "description": "Preparation course for basic Russian certification. Master essential vocabulary, simple sentence structures, and everyday communication scenarios.",
+        "duration": "6 weeks",
+        "tag": "Languages",
+        "keywords": "TORFL A1 exam preparation vocabulary grammar listening",
+        "link": "https://online.spbu.ru/test-of-russian-as-a-foreign-language-torfl-trki-a1/"
+    },
+    {
+        "title": "Test of Russian as a Foreign Language (TORFL/ТРКИ): A2",
+        "description": "Elementary Russian exam preparation focusing on routine interactions, basic text comprehension, and simple written compositions.",
+        "duration": "6 weeks",
+        "tag": "Languages",
+        "keywords": "TORFL A2 exam preparation basic level speaking reading",
+        "link": "https://online.spbu.ru/test-of-russian-as-a-foreign-language-torfl-trki-a2/"
+    },
+    {
+        "title": "Arabic for Beginners. Part 5",
+        "description": "Advanced beginner Arabic covering verb forms and cultural communication. Practice discussing sports, tourism, and cultural landmarks in Modern Standard Arabic.",
+        "duration": "-",
+        "tag": "Languages",
+        "keywords": "Arabic grammar defective verbs sport tourism advanced dialogues",
+        "link": "https://online.spbu.ru/arabic-for-beginners-part-5/"
+    },
+    {
+        "title": "Arabic for Beginners. Part 4",
+        "description": "Intermediate Arabic course exploring family dynamics, medical conversations, and travel vocabulary. Master verb conjugations and complex sentence structures.",
+        "duration": "5 weeks",
+        "tag": "Languages",
+        "keywords": "Arabic verbs hollow geminate family healthcare cuisine travel",
+        "link": "https://online.spbu.ru/arabic-for-beginners-part-4/"
+    },
+    {
+        "title": "Chinese in 5 Steps: Step 5",
+        "description": "Final Mandarin course focusing on language learning strategies, travel emergencies, and formal farewells. Develop skills for academic and professional contexts.",
+        "duration": "8 weeks",
+        "tag": "Languages",
+        "keywords": "Chinese complex grammar comparison passive voice travel accidents",
+        "link": "https://online.spbu.ru/chinese-in-5-steps-step-5/"
+    },
+    {
+        "title": "Chinese in 5 Steps: Step 4",
+        "description": "Upper-intermediate Mandarin course covering comparisons, recommendations, and cultural etiquette. Master complex sentence patterns and formal expressions.",
+        "duration": "8 weeks",
+        "tag": "Languages",
+        "keywords": "Chinese adverbs complements comparison compliments recommendations",
+        "link": "https://online.spbu.ru/chinese-in-5-steps-step-4/"
+    },
+    {
+        "title": "Chinese in 5 Steps: Step 3",
+        "description": "Intermediate Mandarin program teaching leisure activities, airport interactions, and social invitations. Focus on aspect markers and temporal constructions.",
+        "duration": "8 weeks",
+        "tag": "Languages",
+        "keywords": "Chinese resultative complements invitations leisure airport meetings",
+        "link": "https://online.spbu.ru/chinese-in-5-steps-step-3/"
+    },
+    {
+        "title": "Chinese in 5 Steps: Step 2",
+        "description": "Pre-intermediate Mandarin course covering daily routines, shopping transactions, and transportation. Learn time expressions and modal verbs.",
+        "duration": "8 weeks",
+        "tag": "Languages",
+        "keywords": "Chinese separable verbs shopping transport location time",
+        "link": "https://online.spbu.ru/chinese-in-5-steps-step-2/"
+    },
+    {
+        "title": "Chinese in 5 Steps: Step 1",
+        "description": "Beginner Mandarin fundamentals: master pinyin pronunciation, basic greetings, and family introductions. Learn essential characters and sentence patterns.",
+        "duration": "8 weeks",
+        "tag": "Languages",
+        "keywords": "Chinese pronouns adjectives numbers family dates hobby",
+        "link": "https://online.spbu.ru/chinese-in-5-steps-step-1/"
+    },
+    {
+        "title": "Russian as a foreign language: from A2 to B1",
+        "description": "Transition course developing intermediate Russian skills through cultural topics and complex grammar. Focus on urban life, education systems, and historical landmarks.",
+        "duration": "16 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language A2-B1 grammar vocabulary culture exam",
+        "link": "https://online.spbu.ru/russkij-yazyk-kak-inostrannyj-ot-a2-k-v1-cikl-kursov/"
+    },
+    {
+        "title": "Russian as a foreign language: from A2 to B1. Part 4",
+        "description": "Advanced cultural Russian module examining historical monuments, economic developments, and notable figures in Russian society.",
+        "duration": "-",
+        "tag": "Languages",
+        "keywords": "Russian culture monuments history famous figures grammar",
+        "link": "https://online.spbu.ru/russkij-yazyk-kak-inostrannyj-ot-a2-k-v1-chast-4/"
+    },
+    {
+        "title": "Russian as a foreign language: from A2 to B1. Part 3",
+        "description": "Intermediate Russian course focusing on work environments, education systems, and language learning experiences.",
+        "duration": "-",
+        "tag": "Languages",
+        "keywords": "Russian work education language study word order participles",
+        "link": "https://online.spbu.ru/russkij-yazyk-kak-inostrannyj-ot-a2-k-v1-chast-3/"
+    },
+    {
+        "title": "Russian as a foreign language: from A2 to B1. Part 2",
+        "description": "Develop Russian communication skills for urban navigation, hospitality interactions, and cultural experiences.",
+        "duration": "-",
+        "tag": "Languages",
+        "keywords": "Russian city services travel cafes hotels motion verbs",
+        "link": "https://online.spbu.ru/russkij-yazyk-kak-inostrannyj-ot-a2-k-v1-chast-2/"
+    },
+    {
+        "title": "Russian as a foreign language: from A2 to B1. Part 1",
+        "description": "Beginner-intermediate Russian course covering personal introductions, hobby discussions, and family traditions.",
+        "duration": "-",
+        "tag": "Languages",
+        "keywords": "Russian self-introduction hobbies family reflexive verbs comparison",
+        "link": "https://online.spbu.ru/russkij-yazyk-kak-inostrannyj-ot-a2-k-v1-chast-1/"
+    },
+    {
+        "title": "Space Weather: Environmental Impact Assessment",
+        "description": "Study solar-terrestrial interactions and space weather effects on Earth's environment. Analyze radiation impacts, atmospheric changes, and technological vulnerabilities.",
+        "duration": "6 weeks",
+        "tag": "Technology",
+        "keywords": "space weather solar activity cosmic rays atmosphere ozone climate",
+        "link": "https://online.spbu.ru/space-weather-environmental-impact-assessment/"
+    },
+    {
+        "title": "Preparation for TORFL level B2",
+        "description": "Comprehensive preparation for advanced Russian certification. Master academic vocabulary, complex syntax, and formal writing techniques.",
+        "duration": "6 weeks",
+        "tag": "Languages",
+        "keywords": "TORFL B2 exam subtests vocabulary grammar speaking strategy",
+        "link": "https://online.spbu.ru/trki-uroven-b2/"
+    },
+    {
+        "title": "Chinese in 5 Steps: Getting Started with Pronunciation",
+        "description": "Foundational Mandarin course focusing on pinyin mastery. Learn tone differentiation, syllable construction, and pronunciation rules through practical exercises.",
+        "duration": "6 weeks",
+        "tag": "Languages",
+        "keywords": "Chinese pinyin tones syllables pronunciation phonetics listening",
+        "link": "https://online.spbu.ru/chinese-in-5-steps-getting-started-with-pronunciation/"
+    },
+    {
+        "title": "Introduction to the Topic of Finance Essentials",
+        "description": "Corporate finance fundamentals covering financial forecasting, investment analysis, and strategic decision-making processes.",
+        "duration": "5 weeks",
+        "tag": "Finance",
+        "keywords": "finance basics corporate value analysis forecasting investment",
+        "link": "https://online.spbu.ru/introduction-to-the-topic-of-finance-essentials/"
+    },
+    {
+        "title": "Emerging Multinationals and Global Strategy",
+        "description": "Analyze internationalization strategies of emerging market firms. Study market entry approaches, cross-cultural management, and global competitive advantage.",
+        "duration": "5 weeks",
+        "tag": "Finance",
+        "keywords": "emerging markets multinationals internationalization FDI competitive advantage",
+        "link": "https://online.spbu.ru/emerging-multinationals-and-global-strategy/"
+    },
+    {
+        "title": "Investments and Valuation",
+        "description": "Advanced financial analysis course teaching investment appraisal techniques, cost of capital calculations, and business valuation methods.",
+        "duration": "5 weeks",
+        "tag": "Finance",
+        "keywords": "investment appraisal NPV WACC valuation capital budgeting",
+        "link": "https://online.spbu.ru/investments-and-valuation/"
+    },
+    {
+        "title": "ESG Finance",
+        "description": "Explore environmental, social, and governance factors in modern finance. Learn sustainable investing principles and ESG reporting standards.",
+        "duration": "5 weeks",
+        "tag": "Finance",
+        "keywords": "ESG sustainability reporting ratings green finance SDGs",
+        "link": "https://online.spbu.ru/esg-finance/"
+    },
+    {
+        "title": "Performance Management and Decision-Making",
+        "description": "Master budgeting techniques, cost analysis, and KPI development for organizational performance optimization.",
+        "duration": "5 weeks",
+        "tag": "Finance",
+        "keywords": "costing budgeting variance analysis decision-making KPIs",
+        "link": "https://online.spbu.ru/performance-management-and-decision-making/"
+    },
+    {
+        "title": "Financial Accounting",
+        "description": "IFRS-based accounting course covering financial statement preparation, revenue recognition, and cash flow analysis.",
+        "duration": "6 weeks",
+        "tag": "Finance",
+        "keywords": "financial statements IFRS assets liabilities cash-flow revenue",
+        "link": "https://online.spbu.ru/financial-accounting/"
+    },
+    {
+        "title": "Arabic for Beginners. Part 3",
+        "description": "Pre-intermediate Arabic program teaching restaurant interactions, travel planning, and shopping dialogues. Focus on participle usage and numeral systems.",
+        "duration": "4–5 weeks",
+        "tag": "Languages",
+        "keywords": "Arabic verb forms numerals shopping travel passive voice",
+        "link": "https://online.spbu.ru/arabic-for-beginners-part-3/"
+    },
+    {
+        "title": "Arabic for Beginners. Part 2",
+        "description": "Elementary Arabic course developing conversational skills for meetings, hotel stays, and city navigation. Introduce prepositional phrases and adjective agreement.",
+        "duration": "5 weeks",
+        "tag": "Languages",
+        "keywords": "Arabic declension pronouns sentences prepositions hotel city walk",
+        "link": "https://online.spbu.ru/arabic-for-beginners-part-2/"
+    },
+    {
+        "title": "Quantum Computer Programming on Python with Qiskit",
+        "description": "Practical quantum programming course using IBM's Qiskit framework. Implement algorithms and run experiments on real quantum processors.",
+        "duration": "4 weeks",
+        "tag": "Programming",
+        "keywords": "Python Qiskit quantum circuits algorithms IBM Quantum",
+        "link": "https://online.spbu.ru/quantum-computer-programming-on-python-with-qiskit/"
+    },
+    {
+        "title": "Russian for Beginners. Part 4",
+        "description": "Advanced beginner Russian covering health discussions, environmental issues, and professional activities. Master verb aspects and case system.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian hobbies interests holidays instrumental case location verbs",
+        "link": "https://online.spbu.ru/russian-for-beginners-part-3/"
+    },
+    {
+        "title": "Russian for Beginners. Part 3",
+        "description": "Final part of a 4-course series covering essential Russian grammar (verbs of motion, noun cases), 150+ vocabulary words for daily communication, and preparation for advanced courses. Focuses on shopping, travel, and city life contexts.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian shopping motion verbs seasons future tense genitive",
+        "link": "https://online.spbu.ru/russian-for-beginners-part-2/"
+    },
+    {
+        "title": "Russian for Beginners. Part 2",
+        "description": "Continues foundational Russian studies with sentence structure, noun genders, present/past tense verbs, and 100+ conversational phrases. Covers greetings, professions, and family terms.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian greetings family preferences adjectives present tense",
+        "link": "https://online.spbu.ru/russian-for-beginners-part-1/"
+    },
+    {
+        "title": "Russian for Beginners. Part 1: Alphabet",
+        "description": "Introduction to Cyrillic alphabet, pronunciation rules, and basic phonetics. Prepares learners for further Russian studies through 150+ exercises.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian alphabet Cyrillic vowels consonants pronunciation writing",
+        "link": "https://online.spbu.ru/russian-alphabet/"
+    },
+    {
+        "title": "Multi-agent Technologies",
+        "description": "Explores decentralized problem-solving in AI, optimization, and logistics. Focuses on emergent intelligence in distributed agent networks.",
+        "duration": "-",
+        "tag": "Programming",
+        "keywords": "multi-agent systems distributed AI optimization swarm intelligence",
+        "link": "https://online.spbu.ru/multi-agent-technologies/"
+    },
+    {
+        "title": "Visual Perception and Visual Illusions",
+        "description": "Examines visual cognition mechanisms through physiology, color/motion perception, 3D vision, and perceptual illusions. Includes art applications.",
+        "duration": "8 weeks",
+        "tag": "Medicine",
+        "keywords": "visual perception illusions color motion depth cognition",
+        "link": "https://online.spbu.ru/visual-perception-and-visual-illusions/"
+    },
+    {
+        "title": "Introduction to Data Analysis",
+        "description": "Foundational course covering statistical analysis, clustering, machine learning, and neural networks. Practical applications in data science.",
+        "duration": "4 weeks",
+        "tag": "Data",
+        "keywords": "data analysis statistics clustering machine learning neural networks",
+        "link": "https://online.spbu.ru/introduction-to-data-analysis/"
+    },
+    {
+        "title": "Introduction to Video Game Law: A Russian Perspective",
+        "description": "Analyzes legal aspects of gaming including IP rights, content regulation, virtual property, and eSports through Russian jurisprudence.",
+        "duration": "6 weeks",
+        "tag": "Law",
+        "keywords": "video game law intellectual property virtual goods esports regulation",
+        "link": "https://online.spbu.ru/introduction-to-video-game-law-a-russian-perspective/"
+    },
+    {
+        "title": "Global Talent Management",
+        "description": "Strategies for attracting/retaining global talent across diverse contexts. Covers mobility, cultural diversity, and modern organizational challenges.",
+        "duration": "12 weeks",
+        "tag": "Finance",
+        "keywords": "talent management recruitment global mobility diversity leadership",
+        "link": "https://online.spbu.ru/global-talent-management/"
+    },
+    {
+        "title": "Managing Diverse Talent",
+        "description": "Focuses on expatriation, cultural diversity management, and gender inclusion within global organizations.",
+        "duration": "4 weeks",
+        "tag": "Finance",
+        "keywords": "global talent management mobility expatriation cultural diversity diasporas gender",
+        "link": "https://online.spbu.ru/managing-diverse-talent/"
+    },
+    {
+        "title": "Creating Talent Leadership in Different Contexts",
+        "description": "Comparative study of talent management practices in Asia, Latin America, Eastern Europe, and Oceania.",
+        "duration": "4 weeks",
+        "tag": "Finance",
+        "keywords": "talent management Asia Latin America Eastern Europe Russia Australia New Zealand",
+        "link": "https://online.spbu.ru/creating-talent-leadership-in-different-contexts/"
+    },
+    {
+        "title": "Talent Management in Global Organization",
+        "description": "Introduces talent management concepts, macro-level strategies, and corporate practices in multinational settings.",
+        "duration": "4 weeks",
+        "tag": "Finance",
+        "keywords": "talent strategy human capital macro talent practices leadership turbulence",
+        "link": "https://online.spbu.ru/talent-management-in-global-organization/"
+    },
+    {
+        "title": "The Gems of Middle Eastern Literature",
+        "description": "Surveys literary history from ancient texts to modern works, including Quranic influences and contemporary authors.",
+        "duration": "-",
+        "tag": "History",
+        "keywords": "Middle Eastern literature translation history Qurʾanic themes Persia Turkey",
+        "link": "https://online.spbu.ru/the-gems-of-middle-eastern-literature/"
+    },
+    {
+        "title": "Russian Language А1+. Part 4",
+        "description": "Final A2-level preparation covering prefixed verbs, city/transport vocabulary, and university-related communication scenarios.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language A1+ city country famous people TORFL preparation",
+        "link": "https://online.spbu.ru/russian-language-a1-from-elementary-to-basic-4/"
+    },
+    {
+        "title": "Russian Language А1+. Part 3",
+        "description": "Focuses on holiday traditions, nature vocabulary, and peer-reviewed writing/speaking tasks at A1+/A2 level.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language A1+ holidays traditions weather wishes TORFL",
+        "link": "https://online.spbu.ru/russian-language-a1-from-elementary-to-basic-3/"
+    },
+    {
+        "title": "Russian Language А1+. Part 2",
+        "description": "Covers daily routines, health conversations, and advice-giving structures with complex sentence practice.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language A1+ daily life health body feelings TORFL",
+        "link": "https://online.spbu.ru/russian-language-a1-from-elementary-to-basic-2/"
+    },
+    {
+        "title": "Russian Language А1+. Part 1",
+        "description": "Introduces work/leisure vocabulary, future tense formation, and basic travel-related communication.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language A1+ routine work leisure travel future tense",
+        "link": "https://online.spbu.ru/russian-language-a1-from-elementary-to-basic-1/"
+    },
+    {
+        "title": "Russian Language A1+: Elementary to Basic",
+        "description": "4-course series progressing from elementary grammar/vocabulary to basic communication skills with peer-reviewed assignments.",
+        "duration": "16 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language A1+ vocabulary grammar reading listening speaking TORFL",
+        "link": "https://online.spbu.ru/specialization-russian-language-a1-from-elementary-to-basic/"
+    },
+    {
+        "title": "Criminology",
+        "description": "Studies crime causation, control methods, and criminological theories from classical to modern integrative approaches.",
+        "duration": "8 weeks",
+        "tag": "Law",
+        "keywords": "crime statistics theories prevention punishment criminal policy",
+        "link": "https://online.spbu.ru/criminology/"
+    },
+    {
+        "title": "Adobe Illustrator for Beginners",
+        "description": "Practical guide to vector graphics creation, color theory, typography, and print preparation using Adobe tools.",
+        "duration": "5 weeks",
+        "tag": "Technology",
+        "keywords": "vector graphics design illustration color typography layout",
+        "link": "https://online.spbu.ru/adobe-illustrator-for-beginners/"
+    },
+    {
+        "title": "Structure of Matter: Atoms, Molecules, Nanomaterials. Part 2",
+        "description": "Advanced exploration of atomic structures, chemical bonds, and modern nanomaterials applications.",
+        "duration": "6 weeks",
+        "tag": "Chemistry",
+        "keywords": "atomic structure molecules bonds nanomaterials properties digital chemistry",
+        "link": "https://online.spbu.ru/structure-of-matter-atoms-molecules-nanomaterials-part-2/"
+    },
+    {
+        "title": "Structure of Matter: Atoms, Molecules, Nanomaterials. Part 1",
+        "description": "Foundations of atomic/molecular structures and their relationship to material properties and periodic law.",
+        "duration": "6 weeks",
+        "tag": "Chemistry",
+        "keywords": "quantum chemistry atoms periodic law intermolecular interactions materials",
+        "link": "https://online.spbu.ru/structure-of-matter-atoms-molecules-nanomaterials-part1/"
+    },
+    {
+        "title": "Heart Physiology",
+        "description": "Comprehensive study of cardiac function including electrophysiology, ECG interpretation, and coronary circulation.",
+        "duration": "6 weeks",
+        "tag": "Medicine",
+        "keywords": "cardiac electrophysiology myocardium ECG regulation coronary circulation",
+        "link": "https://online.spbu.ru/heart-physiology/"
+    },
+    {
+        "title": "Startups in Open Innovation",
+        "description": "Covers digital economy models, open innovation strategies, and government support systems for startups.",
+        "duration": "5 weeks",
+        "tag": "Finance",
+        "keywords": "startup open innovation crowdsourcing digital economy business model",
+        "link": "https://online.spbu.ru/startups-in-open-innovation/"
+    },
+    {
+        "title": "Practices of Digital Transformation",
+        "description": "Guides digital maturity assessment, business process optimization, and infrastructure evaluation techniques.",
+        "duration": "4 weeks",
+        "tag": "Technology",
+        "keywords": "digital transformation business processes ICT infrastructure maturity assessment",
+        "link": "https://online.spbu.ru/practices-of-digital-transformation/"
+    },
+    {
+        "title": "Commercialization of Innovation Activity Results",
+        "description": "Focuses on IP management, technology valuation, and commercialization strategies for innovative projects.",
+        "duration": "5 weeks",
+        "tag": "Law",
+        "keywords": "intellectual property patents valuation technology transfer licensing",
+        "link": "https://online.spbu.ru/commercialization-of-innovation-activity-results/"
+    },
+    {
+        "title": "Digitalization in International Relations",
+        "description": "Analyzes digital diplomacy, cybersecurity, internet governance, and AI's impact on global politics.",
+        "duration": "-",
+        "tag": "Technology",
+        "keywords": "digital diplomacy big data cybersecurity internet governance e-voting",
+        "link": "https://online.spbu.ru/digitalization-in-international-relations/"
+    },
+    {
+        "title": "Conflict and Stress Management",
+        "description": "Practical approaches to organizational conflict resolution, negotiation techniques, and stress reduction strategies.",
+        "duration": "7 weeks",
+        "tag": "Medicine",
+        "keywords": "organizational conflicts negotiation NLP stress coping communication",
+        "link": "https://online.spbu.ru/conflict-and-stress-management/"
+    },
+    {
+        "title": "Business Russian Communication",
+        "description": "4-part series developing professional Russian skills for presentations, negotiations, and corporate correspondence.",
+        "duration": "16 weeks",
+        "tag": "Languages",
+        "keywords": "business Russian communication vocabulary emails negotiations sales",
+        "link": "https://online.spbu.ru/specializaton-business-russian-communication/"
+    },
+    {
+        "title": "Business Russian Communication. Part 4",
+        "description": "Focuses on sales terminology, contract negotiations, and conflict resolution in business contexts.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian business sales contracts conflict resolution comparative adjectives",
+        "link": "https://online.spbu.ru/business-russian-communication-part-4/"
+    },
+    {
+        "title": "Business Russian Communication. Part 3",
+        "description": "Covers cooperation terms, market analysis, and company presentations in Russian business settings.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian business cooperation market presentation genitive numerals",
+        "link": "https://online.spbu.ru/business-russian-communication-part-3/"
+    },
+    {
+        "title": "Business Russian Communication. Part 2",
+        "description": "Teaches meeting arrangements, planning discussions, and professional email communication in Russian.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian business phone meetings planning email correspondence verbs",
+        "link": "https://online.spbu.ru/business-russian-communication-part-2/"
+    },
+    {
+        "title": "Business Russian Communication. Part 1",
+        "description": "Introduces business introductions, sector-specific vocabulary, and informal workplace communication.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Russian business self-presentation company profile hobbies cases",
+        "link": "https://online.spbu.ru/business-russian-communication-part-1/"
+    },
+    {
+        "title": "Brand Management in Digital Economy",
+        "description": "Explores digital branding strategies, communication platforms, and portfolio management in modern markets.",
+        "duration": "6 weeks",
+        "tag": "Finance",
+        "keywords": "brand equity digital branding communications portfolio strategy",
+        "link": "https://online.spbu.ru/brand-management-in-digital-economy/"
+    },
+    {
+        "title": "Aerial Photography with UAV",
+        "description": "Practical course on UAV operation, flight planning, and geodetic data processing for aerial imaging.",
+        "duration": "6 weeks",
+        "tag": "Technology",
+        "keywords": "UAV drone aerial survey geodesy flight planning photogrammetry",
+        "link": "https://online.spbu.ru/aerial-photography-with-uav/"
+    },
+    {
+        "title": "History of Russia: From NEP to Modern Times",
+        "description": "Examines 20th-century Russia from New Economic Policy through Soviet era to post-1991 developments.",
+        "duration": "5 weeks",
+        "tag": "History",
+        "keywords": "Russian history NEP Soviet era WWII post-Soviet politics",
+        "link": "https://online.spbu.ru/history-of-russia-from-nep-to-modern-times/"
+    },
+    {
+        "title": "History of Russia: From Ancient Rus to the Time of Troubles",
+        "description": "Covers early Russian history from Slavic tribes through Mongol rule to 16th-century political crises.",
+        "duration": "4 weeks",
+        "tag": "History",
+        "keywords": "Russian history Kievan Rus Mongol rule Muscovy Time of Troubles",
+        "link": "https://online.spbu.ru/history-of-russia-from-ancient-rus-to-the-time-of-troubles/"
+    },
+    {
+        "title": "History of Russia: From Peter the Great to the Revolution",
+        "description": "Surveys Imperial Russia's transformation from Petrine reforms to 1917 revolutions and Civil War.",
+        "duration": "5 weeks",
+        "tag": "History",
+        "keywords": "Russian history 18th century reforms 19th century revolution 1917",
+        "link": "https://online.spbu.ru/history-of-russia-from-peter-the-great-to-the-revolution/"
+    },
+    {
+        "title": "Arabic for Beginners. Part 1",
+        "description": "Introductory Arabic course focusing on alphabet mastery, basic grammar, and simple dialogue construction.",
+        "duration": "5 weeks",
+        "tag": "Languages",
+        "keywords": "Arabic alphabet pronunciation grammar basic phrases writing",
+        "link": "https://online.spbu.ru/arabic-for-beginners-introductory-course/"
+    },
+    {
+        "title": "Japanese for Beginners. Part 2",
+        "description": "Expands on basic Japanese with 200+ vocabulary words, kanji recognition, and daily communication scenarios.",
+        "duration": "5 weeks",
+        "tag": "Languages",
+        "keywords": "Japanese kanji grammar daily life travel hobbies dialogs",
+        "link": "https://online.spbu.ru/japanese-for-beginners-2/"
+    },
+    {
+        "title": "Japanese for Beginners. Part 1",
+        "description": "Foundational course teaching hiragana/katakana writing systems and essential grammar structures.",
+        "duration": "5 weeks",
+        "tag": "Languages",
+        "keywords": "Japanese hiragana katakana Kanji greetings basic grammar culture",
+        "link": "https://online.spbu.ru/japanese-for-beginners-1/"
+    },
+    {
+        "title": "Algorithms with Numbers",
+        "description": "Covers number theory algorithms, linear algebra solutions, and FFT applications in competitive programming.",
+        "duration": "4 weeks",
+        "tag": "Programming",
+        "keywords": "number theory Euclidean algorithm big integers linear algebra FFT",
+        "link": "https://online.spbu.ru/algorithms-with-numbers/"
+    },
+    {
+        "title": "Quantum Computing. Less Formulas – More Understanding",
+        "description": "Conceptual introduction to quantum models, cryptography, and teleportation without advanced mathematics.",
+        "duration": "5 weeks",
+        "tag": "Technology",
+        "keywords": "quantum computing physics model algorithms cryptography teleportation",
+        "link": "https://online.spbu.ru/quantum-computing-less-formulas-more-understanding/"
+    },
+    {
+        "title": "One-way Quantum Computation",
+        "description": "Explores continuous-variable quantum models and error correction methods in advanced computing systems.",
+        "duration": "5 weeks",
+        "tag": "Technology",
+        "keywords": "cluster states measurement based computing continuous variables error correction",
+        "link": "https://online.spbu.ru/one-way-quantum-computation/"
+    },
+    {
+        "title": "The Introduction to Quantum Computing",
+        "description": "Fundamentals of quantum logic, Shor's/Grover's algorithms, and quantum computer architecture basics.",
+        "duration": "5 weeks",
+        "tag": "Technology",
+        "keywords": "quantum computing basics qubits Shor Grover algorithms",
+        "link": "https://online.spbu.ru/the-introduction-to-quantum-computing-2/"
+    },
+    {
+        "title": "Quantum Computing: from Basics to the Cutting Edge",
+        "description": "Comprehensive 4-course series covering quantum theory, algorithms, and modern computation models.",
+        "duration": "20 weeks",
+        "tag": "Technology",
+        "keywords": "quantum computing course bundle algorithms physics one-way models",
+        "link": "https://online.spbu.ru/specialization-quantum-computing-from-basics-to-the-cutting-edge/"
+    },
+    {
+        "title": "Physical Basics of Quantum Computing",
+        "description": "Examines quantum entanglement, superposition principles, and quantum algorithm design fundamentals.",
+        "duration": "6 weeks",
+        "tag": "Technology",
+        "keywords": "quantum mechanics entanglement quantum gates algorithms error correction",
+        "link": "https://online.spbu.ru/physical-basics-of-quantum-computing/"
+    },
+    {
+        "title": "Fundamentals of Electron and Ion Microscopy",
+        "description": "Technical course on microscopy imaging techniques, signal detection, and nanoscale material analysis.",
+        "duration": "5 weeks",
+        "tag": "Technology",
+        "keywords": "electron microscopy SEM TEM focused ion beam imaging analysis",
+        "link": "https://online.spbu.ru/fundamentals-of-electron-and-ion-microscopy/"
+    },
+    {
+        "title": "Test of Russian as a Foreign Language (TORFL/ТРКИ): B1",
+        "description": "Preparation course for B1 certification exam covering all test components through practice modules.",
+        "duration": "6 weeks",
+        "tag": "Languages",
+        "keywords": "Russian TORFL B1 vocabulary grammar reading listening speaking",
+        "link": "https://online.spbu.ru/test-of-russian-as-a-foreign-language-torfl-trki-b1/"
+    },
+    {
+        "title": "Rehabilitation After COVID-19",
+        "description": "Evidence-based strategies for physical, cognitive, and emotional recovery post-COVID infection.",
+        "duration": "5 weeks",
+        "tag": "Medicine",
+        "keywords": "COVID-19 rehabilitation physical therapy cognitive emotional recovery",
+        "link": "https://online.spbu.ru/rehabilitation-after-covid-19/"
+    },
+    {
+        "title": "SARS-CoV-2 and Acute Respiratory Viral Infections",
+        "description": "Virology-focused course examining coronavirus biology and pandemic impact on global health systems.",
+        "duration": "5 weeks",
+        "tag": "Medicine",
+        "keywords": "virology coronavirus replication immunity diagnostics pathogenesis",
+        "link": "https://online.spbu.ru/sars-cov-2-and-acute-respiratory-viral-infections/"
+    },
+    {
+        "title": "Intellectual Property Law in Digital Age",
+        "description": "Analyzes IP protection challenges in software, AI, and digital content creation contexts.",
+        "duration": "4 weeks",
+        "tag": "Law",
+        "keywords": "intellectual property copyright patents software AI IoT",
+        "link": "https://online.spbu.ru/intellectual-property-law-in-digital-age/"
+    },
+    {
+        "title": "Korean for Beginners",
+        "description": "4-part series teaching Hangul alphabet, basic grammar, and conversational skills for daily situations.",
+        "duration": "16 weeks",
+        "tag": "Languages",
+        "keywords": "Korean alphabet Hangul basic grammar vocabulary culture travel",
+        "link": "https://online.spbu.ru/korean-for-beginners-specialization/"
+    },
+    {
+        "title": "Korean for Beginners. Part 4",
+        "description": "Practical Korean for dining, shopping, and transportation scenarios with cultural context.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Korean shopping restaurant transport dialogues peer assignment",
+        "link": "https://online.spbu.ru/korean-for-beginners-step-4/"
+    },
+    {
+        "title": "Korean for Beginners. Part 3",
+        "description": "Covers travel vocabulary, family terms, and hobby-related conversations with peer assessments.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Korean travel hobbies family comparison honorifics self-introduction",
+        "link": "https://online.spbu.ru/korean-for-beginners-step-3/"
+    },
+    {
+        "title": "Korean for Beginners. Part 2",
+        "description": "Focuses on daily routines, time expressions, and weather-related communication in Korean.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Korean daily routine time plans weather grammar",
+        "link": "https://online.spbu.ru/korean-for-beginners-step-2/"
+    },
+    {
+        "title": "Korean for Beginners. Part 1",
+        "description": "Introduces Hangul writing system, basic phrases, and self-introduction structures.",
+        "duration": "4 weeks",
+        "tag": "Languages",
+        "keywords": "Korean Hangul introduction self-presentation possessive expressions",
+        "link": "https://online.spbu.ru/korean-for-beginners-step-1/"
+    },
+    {
+        "title": "History of Russia",
+        "description": "3-course series spanning ancient Slavic tribes to modern political developments with academic analysis.",
+        "duration": "14 weeks",
+        "tag": "History",
+        "keywords": "Russian history ancient Rus imperial Soviet modern periods",
+        "link": "https://online.spbu.ru/history-of-russia/"
+    },
+    {
+        "title": "Contemporary Russian Literature",
+        "description": "Surveys post-Soviet literary trends and major authors from late 20th century to present.",
+        "duration": "10 weeks",
+        "tag": "History",
+        "keywords": "Russian literature late Soviet post-Soviet writers trends",
+        "link": "https://online.spbu.ru/contemporary-russian-literature/"
+    },
+    {
+        "title": "Computational Geometry",
+        "description": "Algorithmic solutions for geometric problems including convex hulls, intersections, and triangulation.",
+        "duration": "5 weeks",
+        "tag": "Programming",
+        "keywords": "geometry algorithms convex hull triangulation range search",
+        "link": "https://online.spbu.ru/computational-geometry/"
+    },
+    {
+        "title": "Startup: How to Build a Successful Business?",
+        "description": "Guides startup development from ideation to valuation, covering business models and fundraising.",
+        "duration": "6 weeks",
+        "tag": "Finance",
+        "keywords": "startup business model fundraising incorporation valuation",
+        "link": "https://online.spbu.ru/startup-how-to-build-a-successful-business/"
+    },
+    {
+        "title": "International Labour Law",
+        "description": "Examines ILO standards, workers' rights protection, and corporate social responsibility frameworks.",
+        "duration": "10 weeks",
+        "tag": "Law",
+        "keywords": "ILO conventions labour rights human rights CSR globalization",
+        "link": "https://online.spbu.ru/international-labour-law/"
+    },
+    {
+        "title": "Neurolinguistics",
+        "description": "Studies brain-language relationships, aphasia, dyslexia, and modern research methodologies.",
+        "duration": "7 weeks",
+        "tag": "Medicine",
+        "keywords": "brain language EEG fMRI aphasia dyslexia bilingualism",
+        "link": "https://online.spbu.ru/neurolinguistics/"
+    },
+    {
+        "title": "Fundamentals of the Chinese Character Writing. Part 2",
+        "description": "Advanced study of Chinese radicals and calligraphy techniques with historical context.",
+        "duration": "6 weeks",
+        "tag": "Languages",
+        "keywords": "Chinese calligraphy tools radicals stroke order aesthetics",
+        "link": "https://online.spbu.ru/fundamentals-of-the-chinese-character-writing-part-2/"
+    },
+    {
+        "title": "Russian as a foreign language: B2. Part 1",
+        "description": "Advanced Russian course focusing on complex grammar and professional communication skills.",
+        "duration": "7 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language B2 advanced grammar vocabulary communication",
+        "link": "https://online.spbu.ru/russkij-kak-inostrannyj-b2-1/"
+    },
+    {
+        "title": "Russian as a foreign language: B2. Part 2",
+        "description": "Continues B2-level studies with emphasis on academic writing and advanced speaking tasks.",
+        "duration": "7 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language B2 continuation speaking reading listening",
+        "link": "https://online.spbu.ru/russkij-yazyk-kak-inostrannyj-b2-2/"
+    },
+    {
+        "title": "Russian as a foreign language: B1+. Part 2",
+        "description": "Intermediate course covering health, ecology, and cultural topics in Russian society.",
+        "duration": "7 weeks",
+        "tag": "Languages",
+        "keywords": "Russian language B1+ ecology culture holidays grammar practice",
+        "link": "https://online.spbu.ru/russkij-kak-inostrannyj-b1-chast-2-russian-as-a-foreign-language-b1-part-2/"
+    },
+    {
+        "title": "Russian for Beginners: А0-А1",
+        "description": "4-course introductory series teaching Cyrillic alphabet and basic communication skills.",
+        "duration": "-",
+        "tag": "Languages",
+        "keywords": "Russian alphabet basic vocabulary pronunciation elementary grammar",
+        "link": "https://online.spbu.ru/russkij-kak-inostrannyj-ot-nulya-do-a1/"
+    },
+    {
+        "title": "The Development of Mobile Health Monitoring Systems",
+        "description": "Technical course on ECG system prototyping with hardware/software integration focus.",
+        "duration": "5 weeks",
+        "tag": "Technology",
+        "keywords": "mHealth ECG biomedical sensors data processing prototype",
+        "link": "https://online.spbu.ru/the-development-of-mobile-health-monitoring-systems/"
+    },
+    {
+        "title": "Mathematical Game Theory",
+        "description": "Applies game theory to economic competition, political conflicts, and cooperative strategies.",
+        "duration": "6 weeks",
+        "tag": "Programming",
+        "keywords": "game theory Nash equilibrium cooperation strategies applications",
+        "link": "https://online.spbu.ru/mathematical-game-theory/"
+    },
+    {
+        "title": "Legal Aspects of Conducting Business in Russia",
+        "description": "Overview of Russian corporate law, foreign investment regulations, and trade practices.",
+        "duration": "5 weeks",
+        "tag": "Law",
+        "keywords": "Russian law business forms investment trade regulation",
+        "link": "https://online.spbu.ru/legal-aspects-of-conducting-business-in-russia/"
+    },
+    {
+        "title": "Fundamentals of the Chinese Character Writing. Part 1",
+        "description": "Introduction to Chinese character evolution, radicals, and basic calligraphy principles.",
+        "duration": "6 weeks",
+        "tag": "Languages",
+        "keywords": "Chinese characters history radicals six scripts calligraphy",
+        "link": "https://online.spbu.ru/fundamentals-of-the-chinese-character-writing-part-1/"
+    },
+    {
+        "title": "Competitive Programmer’s Core Skills",
+        "description": "5-course specialization teaching competition algorithms in geometry, numbers, and strings.",
+        "duration": "6 weeks",
+        "tag": "Programming",
+        "keywords": "competitive programming algorithms geometry graphs numbers strings",
+        "link": "https://online.spbu.ru/competitive-programming/"
+    },
+    {
+        "title": "General Pathophysiology",
+        "description": "Studies disease mechanisms, systemic disorders, and pathological process classification.",
+        "duration": "6 weeks",
+        "tag": "Medicine",
+        "keywords": "pathophysiology disease mechanisms inflammation immunity stress",
+        "link": "https://online.spbu.ru/general-pathophysiology/"
+    },
+    {
+        "title": "Protists: Evolution and Ecology of Microbial Eukaryotes",
+        "description": "Explores microbial diversity, evolutionary biology, and ecological roles of protists.",
+        "duration": "6 weeks",
+        "tag": "Medicine",
+        "keywords": "protists taxonomy ecology evolution microscopy unicellular",
+        "link": "https://online.spbu.ru/protists-evolution-and-ecology-of-microbial-eukaryotes/"
+    },
+    {
+        "title": "Russia and Nuclear Arms Control",
+        "description": "Analyzes Russia's nuclear policy, arms treaties, and global non-proliferation efforts.",
+        "duration": "7 weeks",
+        "tag": "Law",
+        "keywords": "nuclear weapons arms control Russia US non-proliferation treaties",
+        "link": "https://online.spbu.ru/rossiya-i-kontrol-nad-yadernymi-vooruzheniyami/"
+    },
+    {
+        "title": "Political Governance and Public Policy in Russia",
+        "description": "Examines Russian political system dynamics, policy formation, and development challenges.",
+        "duration": "6 weeks",
+        "tag": "Law",
+        "keywords": "Russian politics institutions public policy administration civil society",
+        "link": "https://online.spbu.ru/political-governance-and-public-policy-in-russia/"
+    },
+    {
+        "title": "Constitutional Reforms in Russia",
+        "description": "Discusses post-Soviet constitutional evolution, human rights, and political structure analysis.",
+        "duration": "5 weeks",
+        "tag": "Law",
+        "keywords": "Russian constitution amendments governance separation of powers courts",
+        "link": "https://online.spbu.ru/konstitucionnye-reformy-v-rossii-na-anglijskom-yazyke/"
+    }
+]

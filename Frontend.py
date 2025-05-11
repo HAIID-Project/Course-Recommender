@@ -11,13 +11,15 @@ if "surname" not in st.session_state:
 
 
 def login():
-    name = st.text_input("Name")
-    surname = st.text_input("Surname")
-    if st.button("Log in"):
-        st.session_state.logged_in = True
-        st.session_state.name = name
-        st.session_state.surname = surname
-        st.rerun()
+    with st.form("Name"):
+        name = st.text_input("Name")
+        surname = st.text_input("Surname")
+        if st.form_submit_button("Log in"):
+            st.session_state.logged_in = True
+            st.session_state.name = name
+            st.session_state.surname = surname
+            st.switch_page(home)
+            st.rerun()
 
 def logout():
     if st.button("Log out"):
@@ -40,5 +42,4 @@ if st.session_state.logged_in:
     )
 else:
     pg = st.navigation([login_page])
-
 pg.run()
