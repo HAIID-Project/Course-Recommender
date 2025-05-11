@@ -1,7 +1,7 @@
 import json
 import streamlit as st
 from streamlit_extras.stylable_container import stylable_container
-def create_card(title, description, course_type):
+def create_card(title, description, course_type, course_url):
     max_length = 40
     truncated_desc = (description[:max_length] + '...') if len(description) > max_length else description
     truncated_title = (title[:max_length] + '...') if len(title) > max_length else title
@@ -49,7 +49,11 @@ def create_card(title, description, course_type):
             
             with color_col:
                 st.markdown(
-                    f'<div style="background-color: {card_color}; height: 150px;"></div>',
+                    f'''
+                    <div style="background-color: {card_color}; height: 150px; position: relative;">
+                        {f'<a href="{course_url}" target="_blank" style="position: absolute; bottom: 8px; left: 8px; background: white; border: none; border-radius: 0.5rem; padding: 0.3em 0.6em; font-size: 0.8em; text-decoration: none; color: {card_color};">🔗 Visit</a>' if course_url else ''}
+                    </div>
+                    ''',
                     unsafe_allow_html=True
                 )
             
@@ -126,5 +130,6 @@ else:
                 create_card(
                     course_data["title"],
                     course_data["description"],
-                    course_data["tag"]
+                    course_data["tag"],
+                    course_data["link"]
                 )
