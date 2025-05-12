@@ -2,6 +2,7 @@ import json
 import streamlit as st
 from streamlit_extras.stylable_container import stylable_container
 
+
 st.title("All courses")
 
 # Initialize session state
@@ -104,7 +105,7 @@ def create_card(title, description, course_type, course_url):
                     )
 
                     st.markdown(
-                        f'<div style="padding-bottom: 4px; font-size: small; max-width: 80%">{truncated_desc}</div>',
+                        f'<div style="padding-bottom: 4px; font-size: 13px; max-width: 80%">{truncated_desc}</div>',
                         unsafe_allow_html=True
                     )
 
@@ -162,5 +163,11 @@ def create_card_grid(num_columns=2):
         if not filtered_data:
             st.warning("No courses match your filters")
 
+
+with open('users.json', 'r', encoding='utf-8') as f:
+    users = json.load(f)
+    users[st.session_state.id]['liked_courses'] = st.session_state.liked_courses
+with open('users.json', 'w', encoding='utf-8') as f:
+    json.dump(users, f, ensure_ascii=False, indent=4)
 
 create_card_grid(num_columns=2)

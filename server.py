@@ -1,5 +1,5 @@
-from flask import Flask, request, jsonify
 import json
+from flask import Flask, request, jsonify
 from sentence_transformers.cross_encoder import CrossEncoder
 
 
@@ -18,7 +18,7 @@ def suggest():
     interesting_courses = []
     threshold = 0.4
     if ranks[9]['score'] > threshold:
-        for rank in ranks:
+        for rank in ranks[:12]:
             if rank['score'] < threshold:
                 break
             interesting_courses.append(courses[corpus[rank['corpus_id']]]['title'])

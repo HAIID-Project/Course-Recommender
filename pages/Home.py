@@ -3,8 +3,6 @@ import requests
 import streamlit as st
 from streamlit_extras.stylable_container import stylable_container
 
-if 'liked_courses' not in st.session_state:
-    st.session_state.liked_courses = []
 
 def create_card(title, description, course_type, course_url):
     max_length = 40
@@ -128,10 +126,8 @@ def interest_courses(query):
 
 
 if "name" in st.session_state and "surname" in st.session_state:
-
     st.title(f"Hello, {st.session_state.name} {st.session_state.surname}!")
-
-    if "interests" not in st.session_state or st.session_state.interests is None:
+    if "interests" not in st.session_state or not st.session_state.interests:
         st.text("In order to properly recommend courses, we need a bit of information from you. ")
         with st.form("interest form"):
             interests = st.text_input(
@@ -139,6 +135,15 @@ if "name" in st.session_state and "surname" in st.session_state:
             if st.form_submit_button() and interests:
                 st.session_state.interests = interests
                 st.session_state.interest_courses = interest_courses(interests)
+
+                with open('users.json', 'r', encoding='utf-8') as f:
+                    users = json.load(f)
+                    users[st.session_state.id]['liked_courses'] = st.session_state.liked_courses
+                    users[st.session_state.id]['interests'] = st.session_state.interests
+                    users[st.session_state.id]['interest_courses'] = st.session_state.interest_courses
+                with open('users.json', 'w', encoding='utf-8') as f:
+                    json.dump(users, f, ensure_ascii=False, indent=4)
+
                 st.rerun()
 
     else:
@@ -150,6 +155,14 @@ if "name" in st.session_state and "surname" in st.session_state:
                     st.session_state.interest_courses = interest_courses(interests)
                 else:
                     st.session_state.interest_courses = []
+
+                with open('users.json', 'r', encoding='utf-8') as f:
+                    users = json.load(f)
+                    users[st.session_state.id]['liked_courses'] = st.session_state.liked_courses
+                    users[st.session_state.id]['interests'] = st.session_state.interests
+                    users[st.session_state.id]['interest_courses'] = st.session_state.interest_courses
+                with open('users.json', 'w', encoding='utf-8') as f:
+                    json.dump(users, f, ensure_ascii=False, indent=4)
                 st.rerun()
         st.text("Based on your interests, we recommend the following courses:")
 

@@ -114,6 +114,12 @@ def create_card(title, description, course_type, course_url):
                             st.rerun()
 
 
+with open('users.json', 'r', encoding='utf-8') as f:
+    users = json.load(f)
+    users[st.session_state.id]['liked_courses'] = st.session_state.liked_courses
+with open('users.json', 'w', encoding='utf-8') as f:
+    json.dump(users, f, ensure_ascii=False, indent=4)
+
 if not st.session_state.get('liked_courses'):
     st.warning("You haven't liked any courses yet!")
     st.page_link("pages/Courses.py", label="Browse Courses →")
