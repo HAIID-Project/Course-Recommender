@@ -11,7 +11,7 @@ model = CrossEncoder("cross-encoder/stsb-distilroberta-base")
 def suggest():
     query = request.args.get('query')
     with open('courses.json', 'r', encoding='utf-8') as f:
-        courses = {i["keywords"] + ". " + i["description"]: i for i in json.load(f)}
+        courses = {(i["tag"] + " ") * 3 + i["keywords"] + ". " + i["description"]: i for i in json.load(f)}
     corpus = list(courses.keys())
 
     ranks = model.rank(query, corpus)

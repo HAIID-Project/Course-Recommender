@@ -131,7 +131,8 @@ if "name" in st.session_state and "surname" in st.session_state:
         st.text("In order to properly recommend courses, we need a bit of information from you. ")
         with st.form("interest form"):
             interests = st.text_input(
-                "What do you want to learn? Feel free to write as much as you need to get the point across.").strip()
+                "What do you want to learn? Feel free to write as much as you need to get the point across.",
+                placeholder="ex: I want to know more about financial management. Suggest me courses please").strip()
             if st.form_submit_button() and interests:
                 st.session_state.interests = interests
                 st.session_state.interest_courses = interest_courses(interests)

@@ -25,7 +25,7 @@ if selected != st.session_state.get('current_pill_selection'):
     st.session_state.selected_theme = selected if selected != st.session_state.selected_theme else None
     st.rerun()
 
-search = st.text_input("Search by name")
+search = st.text_input("Search by name", placeholder="ex: data analysis")
 
 
 def create_card(title, description, course_type, course_url):
