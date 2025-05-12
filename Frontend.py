@@ -14,8 +14,8 @@ if "surname" not in st.session_state:
 
 def login():
     with st.form("Name"):
-        name = st.text_input("Name").strip()
-        surname = st.text_input("Surname").strip()
+        name = st.text_input("Name", placeholder="ex: Andrea").strip()
+        surname = st.text_input("Surname", placeholder="ex: Calì").strip()
         if st.form_submit_button("Log in") and name and surname:
             user_id = name + "|" + surname
             with open('users.json', 'r', encoding='utf-8') as f:
@@ -53,7 +53,8 @@ def login():
 
 
 def logout():
-    if st.button("Log out"):
+    st.text("Do you want to log out?")
+    if st.button("Yes :("):
         st.session_state.logged_in = False
         with open('users.json', 'r', encoding='utf-8') as f:
             users = json.load(f)
