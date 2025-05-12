@@ -99,7 +99,7 @@ def create_card(title, description, course_type, course_url):
                     """
                 ):
                     st.markdown(
-                        f'<div style="padding-bottom: 4px; max-width: 70%;"><strong>{truncated_title}</strong></div>',
+                        f'<div style="margin-bottom: 8px; padding-bottom: 4px; max-width: 70%;"><strong>{truncated_title}</strong></div>',
                         unsafe_allow_html=True
                     )
 
@@ -119,8 +119,8 @@ def create_card(title, description, course_type, course_url):
                             css_styles="""
                             {
                                 position: absolute;
-                                bottom: 8px;  /* Adjusted from 12px */
-                                right: -140px; 
+                                bottom: 25px;
+                                right: -160px; 
                             }
                         """
                     ):
