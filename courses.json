@@ -1,7 +1,455 @@
 [
     {
+        "title": "Statistics for Data Analysis",
+        "description": "Learn essential statistical skills including data description, probability theory, experiment design, and statistical models using Python. Prepares for roles in Data Analysis and Data Science.",
+        "duration": "64 hours",
+        "tag": "Data",
+        "keywords": "statistics data analysis Python probability models",
+        "link": "https://www.udacity.com/course/statistics-for-data-analysis-nanodegree--nd588"
+    },
+    {
+        "title": "Azure Generative AI Engineer",
+        "description": "Design Generative AI solutions on Azure with OpenAI integration. Build RAG pipelines, AI copilots, and automated ticket classification systems.",
+        "duration": "29 hours",
+        "tag": "Technology",
+        "keywords": "Azure generative AI OpenAI RAG AI deployment",
+        "link": "https://www.udacity.com/course/azure-generative-ai-engineer--nd444"
+    },
+    {
+        "title": "Digital Project Management",
+        "description": "Master digital project management using Waterfall/Agile methodologies. Translate business needs into project plans and team coordination strategies.",
+        "duration": "22 hours",
+        "tag": "Technology",
+        "keywords": "project management Waterfall Agile business requirements",
+        "link": "https://www.udacity.com/course/digital-project-management-nanodegree--nd043"
+    },
+    {
+        "title": "Enterprise Security",
+        "description": "Develop corporate security engineering skills in network/data protection, endpoint security, and regulatory compliance.",
+        "duration": "68 hours",
+        "tag": "Technology",
+        "keywords": "enterprise security network protection compliance",
+        "link": "https://www.udacity.com/course/enterprise-security-nanodegree--nd0035"
+    },
+    {
+        "title": "Generative AI",
+        "description": "Master text/image generation with LLMs and computer vision. Build chatbots and AI agents for real-world applications.",
+        "duration": "50 hours",
+        "tag": "Technology",
+        "keywords": "generative AI LLMs computer vision chatbots",
+        "link": "https://www.udacity.com/course/generative-ai--nd608"
+    },
+    {
+        "title": "Sensor Fusion",
+        "description": "Implement sensor fusion for autonomous vehicles using lidar, radar, and Kalman filters. Build perception systems for self-driving cars.",
+        "duration": "63 hours",
+        "tag": "Technology",
+        "keywords": "sensor fusion lidar radar autonomous vehicles",
+        "link": "https://www.udacity.com/course/sensor-fusion-engineer-nanodegree--nd313"
+    },
+    {
+        "title": "Programming for Data Science with Python",
+        "description": "Develop Python/SQL programming skills for data analysis. Manage workflows with Unix shell and Git version control.",
+        "duration": "53 hours",
+        "tag": "Programming",
+        "keywords": "Python SQL data analysis Git",
+        "link": "https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104"
+    },
+    {
+        "title": "Business Analytics",
+        "description": "Analyze business data using Excel/SQL/Tableau. Create financial models and dashboards for data-driven decision-making.",
+        "duration": "69 hours",
+        "tag": "Data",
+        "keywords": "business analytics Excel Tableau financial models",
+        "link": "https://www.udacity.com/course/business-analytics-nanodegree--nd098"
+    },
+    {
+        "title": "Cloud Architect using Microsoft Azure",
+        "description": "Design Azure cloud architectures and migration plans. Implement automation and high-availability strategies.",
+        "duration": "53 hours",
+        "tag": "Technology",
+        "keywords": "Azure cloud architect migration DevOps",
+        "link": "https://www.udacity.com/course/cloud-architect-using-microsoft-azure-nanodegree--nd090"
+    },
+    {
+        "title": "Cloud Computing for Business Leaders",
+        "description": "Strategically implement cloud technologies to optimize operations and build scalable infrastructures.",
+        "duration": "19 hours",
+        "tag": "Technology",
+        "keywords": "cloud computing business strategy scalability",
+        "link": "https://www.udacity.com/course/cloud-computing-for-business-leaders-nanodegree--nd046"
+    },
+    {
+        "title": "Data Scientist",
+        "description": "Solve real-world problems using machine learning and AI tools. Build predictive models for healthcare, finance, and HR applications.",
+        "duration": "61 hours",
+        "tag": "Data",
+        "keywords": "data science machine learning predictive modeling",
+        "link": "https://www.udacity.com/course/data-scientist-nanodegree--nd025"
+    },
+    {
+        "title": "Data Analyst",
+        "description": "Clean, analyze, and visualize data using Python tools (Jupyter, pandas). Communicate insights through data storytelling.",
+        "duration": "43 hours",
+        "tag": "Data",
+        "keywords": "data analysis Python pandas visualization",
+        "link": "https://www.udacity.com/course/data-analyst-nanodegree--nd002"
+    },
+    {
+        "title": "Introduction to Programming",
+        "description": "Learn foundational coding skills applicable to app development, web design, and data analysis.",
+        "duration": "109 hours",
+        "tag": "Programming",
+        "keywords": "programming coding development basics",
+        "link": "https://www.udacity.com/course/intro-to-programming-nanodegree--nd000"
+    },
+    {
+        "title": "Android Kotlin Developer",
+        "description": "Build Android apps using Kotlin and Android Studio. Master modern mobile development practices.",
+        "duration": "116 hours",
+        "tag": "Programming",
+        "keywords": "Android Kotlin mobile development",
+        "link": "https://www.udacity.com/course/android-kotlin-developer-nanodegree--nd940"
+    },
+    {
+        "title": "Computer Vision",
+        "description": "Implement image analysis and object recognition using deep learning models for robotics applications.",
+        "duration": "37 hours",
+        "tag": "Technology",
+        "keywords": "computer vision deep learning image analysis",
+        "link": "https://www.udacity.com/course/computer-vision-nanodegree--nd891"
+    },
+    {
+        "title": "Flying Car and Autonomous Flight Engineer",
+        "description": "Develop autonomous flight software for drones and flying cars. Program real aircraft systems.",
+        "duration": "86 hours",
+        "tag": "Technology",
+        "keywords": "autonomous flight drones robotics",
+        "link": "https://www.udacity.com/course/flying-car-nanodegree--nd787"
+    },
+    {
+        "title": "Security Engineer",
+        "description": "Protect computer systems/networks through security engineering. Focus on network/application defenses.",
+        "duration": "90 hours",
+        "tag": "Technology",
+        "keywords": "security engineering network protection",
+        "link": "https://www.udacity.com/course/security-engineer-nanodegree--nd698"
+    },
+    {
+        "title": "User Experience",
+        "description": "Master UX design fundamentals including research, prototyping, and usability testing.",
+        "duration": "51 hours",
+        "tag": "Technology",
+        "keywords": "UX design prototyping usability testing",
+        "link": "https://www.udacity.com/course/ux-designer-nanodegree--nd578"
+    },
+    {
+        "title": "Data Structures and Algorithms",
+        "description": "Solve 100+ coding exercises in data structures/algorithms. Prepare for technical interviews.",
+        "duration": "47 hours",
+        "tag": "Programming",
+        "keywords": "data structures algorithms coding interviews",
+        "link": "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256"
+    },
+    {
+        "title": "Introduction to Machine Learning with Pytorch",
+        "description": "Build ML models with PyTorch. Cover supervised learning, neural networks, and clustering techniques.",
+        "duration": "49 hours",
+        "tag": "Data",
+        "keywords": "machine learning PyTorch neural networks",
+        "link": "https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229"
+    },
+    {
+        "title": "AWS Machine Learning Engineer Nanodegree",
+        "description": "Deploy production ML models on AWS SageMaker. Master data preprocessing and model pipelines.",
+        "duration": "94 hours",
+        "tag": "Technology",
+        "keywords": "AWS SageMaker ML deployment",
+        "link": "https://www.udacity.com/course/aws-machine-learning-engineer-nanodegree--nd189"
+    },
+    {
+        "title": "Cybersecurity for Business Leaders",
+        "description": "Develop cybersecurity strategies to protect digital ecosystems and allocate resources effectively.",
+        "duration": "7 hours",
+        "tag": "Technology",
+        "keywords": "cybersecurity threat management resource planning",
+        "link": "https://www.udacity.com/course/cybersecurity-for-business-leaders--nd1202"
+    },
+    {
+        "title": "Programming for Data Science with R",
+        "description": "Analyze data using R and SQL. Manage code versions with Git for collaborative projects.",
+        "duration": "54 hours",
+        "tag": "Programming",
+        "keywords": "R programming SQL Git data analysis",
+        "link": "https://www.udacity.com/course/programming-for-data-science-nanodegree-with-R--nd118"
+    },
+    {
+        "title": "Deep Learning",
+        "description": "Build neural networks with PyTorch for image classification, sentiment analysis, and generative models.",
+        "duration": "61 hours",
+        "tag": "Data",
+        "keywords": "deep learning neural networks PyTorch",
+        "link": "https://www.udacity.com/course/deep-learning-nanodegree--nd101"
+    },
+    {
+        "title": "AI Programming with Python",
+        "description": "Learn Python programming for AI, data analysis, and machine learning using libraries like NumPy, pandas, and PyTorch. Build and deploy neural networks and generative AI models through hands-on projects. Prepares for AI programming careers.",
+        "duration": "73 hours",
+        "tag": "Programming",
+        "keywords": "ai python numpy pandas matplotlib machine learning pytorch neural networks transformer nlp",
+        "link": "https://www.udacity.com/course/ai-programming-python-nanodegree--nd089"
+    },
+    {
+        "title": "Digital Freelancer",
+        "description": "Master digital freelancing skills including marketing, building a professional online presence, and managing client projects. Includes portfolio development and mock client practice.",
+        "duration": "31 hours",
+        "tag": "Technology",
+        "keywords": "freelancing digital marketing social media portfolio client management",
+        "link": "https://www.udacity.com/course/digital-freelancer-nanodegree--nd083"
+    },
+    {
+        "title": "Cloud Native Application Architecture",
+        "description": "Learn to manage scalable cloud-native applications using tools like ArgoCD, gRPC, and Grafana. Focuses on open-source solutions for cloud environments.",
+        "duration": "72 hours",
+        "tag": "Technology",
+        "keywords": "cloud scalable applications argocd grpc grafana",
+        "link": "https://www.udacity.com/course/cloud-native-application-architecture-nanodegree--nd064"
+    },
+    {
+        "title": "Product Manager",
+        "description": "Covers the full product lifecycle from ideation to launch. Teaches market research, agile methodologies, UX design, and data-driven decision-making for product roles.",
+        "duration": "50 hours",
+        "tag": "Technology",
+        "keywords": "product management market research agile ux roadmap",
+        "link": "https://www.udacity.com/course/product-manager-nanodegree--nd036"
+    },
+    {
+        "title": "React",
+        "description": "Build web and mobile UIs with React and React Native. Learn state management with Redux and develop career-ready front-end skills.",
+        "duration": "39 hours",
+        "tag": "Programming",
+        "keywords": "react react-native redux javascript ui",
+        "link": "https://www.udacity.com/course/react-nanodegree--nd019"
+    },
+    {
+        "title": "Digital Marketing",
+        "description": "Gain hands-on experience running campaigns and learn 360-degree digital marketing strategies from industry experts.",
+        "duration": "73 hours",
+        "tag": "Technology",
+        "keywords": "digital marketing campaigns seo social media",
+        "link": "https://www.udacity.com/course/digital-marketing-nanodegree--nd018"
+    },
+    {
+        "title": "Full Stack JavaScript Developer",
+        "description": "Master full-stack JavaScript development to build modern web applications using cutting-edge architecture and tools.",
+        "duration": "70 hours",
+        "tag": "Programming",
+        "keywords": "javascript full-stack web development",
+        "link": "https://www.udacity.com/course/full-stack-javascript-developer-nanodegree--nd0067"
+    },
+    {
+        "title": "Front End Web Developer",
+        "description": "Become proficient in HTML, CSS, and JavaScript through project-based learning. Build responsive websites and applications.",
+        "duration": "37 hours",
+        "tag": "Programming",
+        "keywords": "front-end html css javascript",
+        "link": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011"
+    },
+    {
+        "title": "Cloud DevOps Engineer",
+        "description": "Develop in-demand DevOps skills to automate cloud infrastructure and deployment pipelines.",
+        "duration": "53 hours",
+        "tag": "Technology",
+        "keywords": "devops cloud automation cicd",
+        "link": "https://www.udacity.com/course/cloud-dev-ops-nanodegree--nd9991"
+    },
+    {
+        "title": "Security Architect",
+        "description": "Design secure systems to prevent cyber threats. Learn identity management, infrastructure security, and incident response.",
+        "duration": "57 hours",
+        "tag": "Technology",
+        "keywords": "security cybersecurity malware threat detection",
+        "link": "https://www.udacity.com/course/security-architect-nanodegree--nd992"
+    },
+    {
+        "title": "Deep Reinforcement Learning",
+        "description": "Implement AI solutions for robotics and finance using dynamic programming, Monte Carlo methods, and deep RL frameworks.",
+        "duration": "83 hours",
+        "tag": "Technology",
+        "keywords": "ai reinforcement learning robotics finance bellman",
+        "link": "https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893"
+    },
+    {
+        "title": "AI for Trading",
+        "description": "Develop AI-driven trading strategies and algorithms. Build a portfolio with real-world projects in asset management.",
+        "duration": "97 hours",
+        "tag": "Finance",
+        "keywords": "ai trading finance algorithms portfolio",
+        "link": "https://www.udacity.com/course/ai-for-trading--nd880"
+    },
+    {
+        "title": "Data Analysis and Visualization with Microsoft Power BI",
+        "description": "Master data preprocessing, visualization, and analysis using Power BI for actionable business insights.",
+        "duration": "57 hours",
+        "tag": "Data",
+        "keywords": "data analysis powerbi visualization preprocessing",
+        "link": "https://www.udacity.com/course/data-analysis-and-visualization-with-power-BI-nanodegree--nd331"
+    },
+    {
+        "title": "Security Analyst",
+        "description": "Acquire skills to detect and respond to cybersecurity threats. Prepare for analyst roles in security operations.",
+        "duration": "58 hours",
+        "tag": "Technology",
+        "keywords": "security analyst cybersecurity threat detection",
+        "link": "https://www.udacity.com/course/security-analyst-nanodegree--nd324"
+    },
+    {
+        "title": "AI for Healthcare",
+        "description": "Apply AI to medical imaging data. Learn FDA validation, CNN model training, and clinical workflow integration.",
+        "duration": "91 hours",
+        "tag": "Medicine",
+        "keywords": "ai healthcare medical imaging cnn fda",
+        "link": "https://www.udacity.com/course/ai-for-healthcare-nanodegree--nd320"
+    },
+    {
+        "title": "Introduction to Machine Learning with TensorFlow",
+        "description": "Build ML models with TensorFlow. Covers supervised/unsupervised learning, neural networks, and evaluation metrics.",
+        "duration": "49 hours",
+        "tag": "Data",
+        "keywords": "machine learning tensorflow neural networks clustering",
+        "link": "https://www.udacity.com/course/intro-to-machine-learning-with-tensorflow-nanodegree--nd230"
+    },
+    {
+        "title": "C++",
+        "description": "Master high-performance C++ programming for applications in robotics, gaming, web browsers, and more.",
+        "duration": "62 hours",
+        "tag": "Programming",
+        "keywords": "c++ programming engineering performance",
+        "link": "https://www.udacity.com/course/c-plus-plus-nanodegree--nd213"
+    },
+    {
+        "title": "Robotics Software Engineer",
+        "description": "Combine computer vision, ML, and hardware systems to build advanced robotics solutions.",
+        "duration": "81 hours",
+        "tag": "Technology",
+        "keywords": "robotics computer vision machine learning hardware",
+        "link": "https://www.udacity.com/course/robotics-software-engineer--nd209"
+    },
+    {
+        "title": "Data Visualization",
+        "description": "Create interactive dashboards and data stories with Tableau. Learn visualization best practices and storytelling.",
+        "duration": "77 hours",
+        "tag": "Data",
+        "keywords": "data visualization tableau dashboards storytelling",
+        "link": "https://www.udacity.com/course/data-visualization-nanodegree--nd197"
+    },
+    {
+        "title": "Agile Software Developer",
+        "description": "Learn Agile frameworks to build products efficiently. Focus on iterative development and team collaboration.",
+        "duration": "56 hours",
+        "tag": "Technology",
+        "keywords": "agile software development frameworks collaboration",
+        "link": "https://www.udacity.com/course/agile-software-development-nanodegree--nd144"
+    },
+    {
+        "title": "Introduction to Self-Driving Cars",
+        "description": "Learn foundational skills for autonomous vehicles: C++, machine learning, linear algebra, and probability.",
+        "duration": "74 hours",
+        "tag": "Technology",
+        "keywords": "self-driving cars c++ machine learning probability",
+        "link": "https://www.udacity.com/course/intro-to-self-driving-cars--nd113"
+    },
+    {
+        "title": "Machine Learning DevOps Engineer",
+        "description": "Automate ML model deployment with CI/CD pipelines. Learn reproducible workflows and production-ready code.",
+        "duration": "63 hours",
+        "tag": "Technology",
+        "keywords": "machine learning devops cicd pipelines",
+        "link": "https://www.udacity.com/course/machine-learning-dev-ops-engineer-nanodegree--nd0821"
+    },
+    {
+        "title": "SQL",
+        "description": "Master SQL for database management and data analysis. Learn advanced querying, optimization, and real-world applications.",
+        "duration": "42 hours",
+        "tag": "Data",
+        "keywords": "sql databases queries data analysis",
+        "link": "https://www.udacity.com/course/learn-sql--nd072"
+    },
+    {
+        "title": "Predictive Analytics for Business",
+        "description": "Learn to define business issues, prepare data, and implement predictive modeling techniques.",
+        "duration": "52 hours",
+        "tag": "Data",
+        "keywords": "predictive analytics business data modeling",
+        "link": "https://www.udacity.com/course/predictive-analytics-for-business-nanodegree--nd008t"
+    },
+    {
+        "title": "AWS Cloud Architect",
+        "description": "Master designing, deploying, and optimizing AWS cloud architectures. Learn cost optimization, migration strategies, and scalability using AWS tools.",
+        "duration": "34 hours",
+        "tag": "Technology",
+        "keywords": "AWS cloud architect migration scalability cost optimization",
+        "link": "https://www.udacity.com/course/aws-cloud-architect-nanodegree--nd063"
+    },
+    {
+        "title": "Growth Product Manager",
+        "description": "Build acquisition funnels, identify core customers, and optimize growth loop models.",
+        "duration": "57 hours",
+        "tag": "Technology",
+        "keywords": "growth product manager acquisition optimization",
+        "link": "https://www.udacity.com/course/growth-product-manager-nanodegree--nd037"
+    },
+    {
+        "title": "Java Web Developer",
+        "description": "Learn enterprise-scale back-end development with Java for high-demand software engineering roles.",
+        "duration": "69 hours",
+        "tag": "Programming",
+        "keywords": "Java web developer enterprise backend",
+        "link": "https://www.udacity.com/course/java-developer-nanodegree--nd035"
+    },
+    {
+        "title": "Marketing Analytics",
+        "description": "Analyze data, model marketing scenarios, and communicate findings using Excel and Tableau.",
+        "duration": "60 hours",
+        "tag": "Data",
+        "keywords": "marketing analytics data tableau",
+        "link": "https://www.udacity.com/course/marketing-analytics-nanodegree--nd028"
+    },
+    {
+        "title": "Data Engineering with AWS",
+        "description": "Design data models, build data warehouses/lakes, and automate pipelines for large datasets.",
+        "duration": "40 hours",
+        "tag": "Data",
+        "keywords": "data engineering AWS pipelines datasets",
+        "link": "https://www.udacity.com/course/data-engineer-nanodegree--nd027"
+    },
+    {
+        "title": "iOS Development with SwiftUI and SwiftData",
+        "description": "Build iOS apps using Swift and SwiftUI. Requires macOS Ventura 13.5+.",
+        "duration": "76 hours",
+        "tag": "Programming",
+        "keywords": "iOS Swift SwiftData apps",
+        "link": "https://www.udacity.com/course/ios-developer-nanodegree--nd003"
+    },
+    {
+        "title": "Artificial Intelligence",
+        "description": "Explore AI techniques like search algorithms and symbolic logic to build problem-solving agents.",
+        "duration": "40 hours",
+        "tag": "Technology",
+        "keywords": "AI algorithms intelligent agents problem-solving",
+        "link": "https://www.udacity.com/course/ai-artificial-intelligence-nanodegree--nd898"
+    },
+    {
+        "title": "Natural Language Processing",
+        "description": "Build models for sentiment analysis, machine translation, and text manipulation.",
+        "duration": "53 hours",
+        "tag": "Data",
+        "keywords": "NLP machine translation sentiment analysis",
+        "link": "https://www.udacity.com/course/natural-language-processing-nanodegree--nd892"
+    },
+    {
         "title": "The Magnificent Century: History and Culture of the Ottoman Empire",
-        "description": "Explore the Ottoman Empire's history and cultural legacy. This course examines East-West cultural exchanges and is ideal for enthusiasts of Turkish history and Middle Eastern culture.",
+        "description": "Explore the history and culture of the Ottoman Empire, focusing on cultural exchanges between East and West.",
         "duration": "10–12 weeks",
         "tag": "History",
         "keywords": "Ottoman Empire history culture art sultans Turkey Byzantine influence",
@@ -9,7 +457,7 @@
     },
     {
         "title": "Sport Algorithmic Programming",
-        "description": "Master competitive programming techniques through practical C++/C# implementation. Learn to solve ICPC-level challenges, develop dynamic programming skills, and improve algorithmic problem-solving efficiency for IT professionals and programming competition participants.",
+        "description": "Enhance your competitive programming skills with C++ and C#. Solve ICPC-level problems and improve dynamic programming.",
         "duration": "5 weeks",
         "tag": "Programming",
         "keywords": "competitive programming algorithms ICPC C++ C# dynamic-programming graphs",
@@ -17,7 +465,7 @@
     },
     {
         "title": "Philosophy",
-        "description": "Explore fundamental philosophical questions about knowledge, truth, ethics, and human existence. Develop critical thinking skills through analysis of classical and modern philosophical frameworks across ontology, epistemology, and aesthetics.",
+        "description": "Explore key questions about knowledge, truth, ethics, and existence. Study classical and modern philosophy.",
         "duration": "12 weeks",
         "tag": "Philosophy",
         "keywords": "philosophy ontology epistemology ethics aesthetics mind knowledge",
@@ -25,7 +473,7 @@
     },
     {
         "title": "Quantum Computing. Less Formulas — More Understanding",
-        "description": "Introduction to quantum computing principles without advanced mathematics. Learn quantum mechanics foundations, qubit operations, and practical applications including cryptography and teleportation algorithms.",
+        "description": "Learn quantum computing basics without complex math. Understand quantum mechanics and explore applications like cryptography.",
         "duration": "82 weeks",
         "tag": "Technology",
         "keywords": "quantum computing qubits algorithms cryptography teleportation mathematics",
@@ -33,7 +481,7 @@
     },
     {
         "title": "Machine Learning Based Econometrics",
-        "description": "Bridge traditional econometrics with modern machine learning techniques using Python. Master predictive analytics for economic forecasting and big data processing with Hadoop/Spark frameworks.",
+        "description": "Combine traditional econometrics with modern machine learning using Python. Master predictive analytics for economic forecasting.",
         "duration": "3–4 weeks",
         "tag": "Data",
         "keywords": "machine-learning econometrics big-data forecasting Python analytics",
@@ -41,7 +489,7 @@
     },
     {
         "title": "Computational Chemistry from Molecular Properties to Reactions: Learning-by-doing",
-        "description": "Practical quantum chemistry course teaching computational prediction of chemical reactions using Linux-based tools. Gain hands-on experience with molecular modeling, potential energy surfaces, and reaction mechanisms.",
+        "description": "Practical course on predicting chemical reactions using computational tools. Gain hands-on experience with molecular modeling.",
         "duration": "10 weeks",
         "tag": "Chemistry",
         "keywords": "computational chemistry quantum-mechanics ab-initio DFT reactions ORCA",
@@ -49,7 +497,7 @@
     },
     {
         "title": "Fundamentals of the Chinese Character Writing",
-        "description": "Master 214 Chinese radicals and stroke order principles through historical analysis and practical brushwork. Learn traditional calligraphy techniques and character decomposition for effective language learning.",
+        "description": "Master Chinese radicals and stroke order principles. Learn traditional calligraphy techniques.",
         "duration": "-",
         "tag": "Languages",
         "keywords": "Chinese calligraphy radicals stroke-order writing culture",
@@ -57,7 +505,7 @@
     },
     {
         "title": "All About COVID-19",
-        "description": "Comprehensive virology program covering SARS-CoV-2 biology, diagnostic methods, and post-COVID rehabilitation strategies. Learn viral pathogenesis and evidence-based recovery approaches.",
+        "description": "Comprehensive program on SARS-CoV-2 biology, diagnostics, and post-COVID recovery strategies.",
         "duration": "-",
         "tag": "Medicine",
         "keywords": "COVID-19 virology rehabilitation SARS-CoV-2 diagnostics immunity",
@@ -65,7 +513,7 @@
     },
     {
         "title": "Russian as a foreign language: B1. Part 1",
-        "description": "Intermediate Russian course focusing on everyday communication skills. Practice discussing travel experiences, urban environments, and personal hobbies while preparing for TRKI-1 certification.",
+        "description": "Intermediate Russian course focusing on everyday communication skills and preparing for TRKI-1 certification.",
         "duration": "7 weeks",
         "tag": "Languages",
         "keywords": "Russian language B1 grammar listening speaking culture",
@@ -73,7 +521,7 @@
     },
     {
         "title": "Russian as a foreign language: B2",
-        "description": "Upper-intermediate Russian program emphasizing academic writing and cultural discussions. Prepare for TRKI-2 certification through analysis of Russian literature and complex grammatical structures.",
+        "description": "Upper-intermediate Russian program focusing on academic writing and cultural discussions.",
         "duration": "14 weeks",
         "tag": "Languages",
         "keywords": "Russian language B2 advanced communication grammar vocabulary",
@@ -81,7 +529,7 @@
     },
     {
         "title": "Contemporary Finance",
-        "description": "Five-course specialization covering financial essentials, performance management, investment valuation, and ESG principles. Develop skills for corporate financial analysis and sustainable finance strategies.",
+        "description": "Five-course specialization covering financial essentials, investment valuation, and ESG principles.",
         "duration": "26 weeks",
         "tag": "Finance",
         "keywords": "finance corporate valuation ESG accounting investments budgeting",
@@ -89,7 +537,7 @@
     },
     {
         "title": "Chinese in 5 Steps",
-        "description": "Comprehensive Mandarin program from pronunciation mastery to intermediate conversation. Learn 500+ characters and practical communication skills for business and cultural interactions.",
+        "description": "Comprehensive Mandarin program from pronunciation to intermediate conversation. Learn practical communication skills.",
         "duration": "-",
         "tag": "Languages",
         "keywords": "Chinese language A2-B1 vocabulary grammar pronunciation culture",
@@ -97,7 +545,7 @@
     },
     {
         "title": "Arabic for Beginners",
-        "description": "Structured introduction to Modern Standard Arabic covering script mastery, basic grammar, and everyday communication. Progress from letter recognition to simple dialogues across 5 proficiency levels.",
+        "description": "Introduction to Modern Standard Arabic covering script mastery and basic grammar.",
         "duration": "-",
         "tag": "Languages",
         "keywords": "Arabic alphabet pronunciation basic grammar vocabulary culture",
@@ -105,7 +553,7 @@
     },
     {
         "title": "Russian as a foreign language: B1+",
-        "description": "Bridge course strengthening B1 Russian skills through cultural topics and complex grammar. Focus on environmental discussions, Russian history, and holiday traditions.",
+        "description": "Bridge course strengthening B1 Russian skills through cultural topics and complex grammar.",
         "duration": "14 weeks",
         "tag": "Languages",
         "keywords": "Russian language B1+ intermediate speaking reading grammar",
@@ -113,7 +561,7 @@
     },
     {
         "title": "Russian as a foreign language: from B1+ to B2",
-        "description": "Advanced Russian program developing professional communication skills and analytical text comprehension. Prepare for university-level academic work in Russian.",
+        "description": "Advanced Russian program developing professional communication skills.",
         "duration": "-",
         "tag": "Languages",
         "keywords": "Russian language B1+-B2 transition fluency academic skills",
@@ -121,7 +569,7 @@
     },
     {
         "title": "Test of Russian as a Foreign Language (TORFL/ТРКИ): A1",
-        "description": "Preparation course for basic Russian certification. Master essential vocabulary, simple sentence structures, and everyday communication scenarios.",
+        "description": "Preparation course for basic Russian certification. Master essential vocabulary and simple sentence structures.",
         "duration": "6 weeks",
         "tag": "Languages",
         "keywords": "TORFL A1 exam preparation vocabulary grammar listening",
@@ -129,7 +577,7 @@
     },
     {
         "title": "Test of Russian as a Foreign Language (TORFL/ТРКИ): A2",
-        "description": "Elementary Russian exam preparation focusing on routine interactions, basic text comprehension, and simple written compositions.",
+        "description": "Elementary Russian exam preparation focusing on routine interactions and basic text comprehension.",
         "duration": "6 weeks",
         "tag": "Languages",
         "keywords": "TORFL A2 exam preparation basic level speaking reading",
@@ -137,7 +585,7 @@
     },
     {
         "title": "Arabic for Beginners. Part 5",
-        "description": "Advanced beginner Arabic covering verb forms and cultural communication. Practice discussing sports, tourism, and cultural landmarks in Modern Standard Arabic.",
+        "description": "Advanced beginner Arabic covering verb forms and cultural communication.",
         "duration": "-",
         "tag": "Languages",
         "keywords": "Arabic grammar defective verbs sport tourism advanced dialogues",
@@ -145,7 +593,7 @@
     },
     {
         "title": "Arabic for Beginners. Part 4",
-        "description": "Intermediate Arabic course exploring family dynamics, medical conversations, and travel vocabulary. Master verb conjugations and complex sentence structures.",
+        "description": "Intermediate Arabic course exploring family dynamics and travel vocabulary.",
         "duration": "5 weeks",
         "tag": "Languages",
         "keywords": "Arabic verbs hollow geminate family healthcare cuisine travel",
@@ -153,7 +601,7 @@
     },
     {
         "title": "Chinese in 5 Steps: Step 5",
-        "description": "Final Mandarin course focusing on language learning strategies, travel emergencies, and formal farewells. Develop skills for academic and professional contexts.",
+        "description": "Final Mandarin course focusing on language learning strategies and travel emergencies.",
         "duration": "8 weeks",
         "tag": "Languages",
         "keywords": "Chinese complex grammar comparison passive voice travel accidents",
@@ -161,7 +609,7 @@
     },
     {
         "title": "Chinese in 5 Steps: Step 4",
-        "description": "Upper-intermediate Mandarin course covering comparisons, recommendations, and cultural etiquette. Master complex sentence patterns and formal expressions.",
+        "description": "Upper-intermediate Mandarin course covering comparisons and cultural etiquette.",
         "duration": "8 weeks",
         "tag": "Languages",
         "keywords": "Chinese adverbs complements comparison compliments recommendations",
@@ -169,7 +617,7 @@
     },
     {
         "title": "Chinese in 5 Steps: Step 3",
-        "description": "Intermediate Mandarin program teaching leisure activities, airport interactions, and social invitations. Focus on aspect markers and temporal constructions.",
+        "description": "Intermediate Mandarin program teaching leisure activities and social invitations.",
         "duration": "8 weeks",
         "tag": "Languages",
         "keywords": "Chinese resultative complements invitations leisure airport meetings",
@@ -177,7 +625,7 @@
     },
     {
         "title": "Chinese in 5 Steps: Step 2",
-        "description": "Pre-intermediate Mandarin course covering daily routines, shopping transactions, and transportation. Learn time expressions and modal verbs.",
+        "description": "Pre-intermediate Mandarin course covering daily routines and shopping transactions.",
         "duration": "8 weeks",
         "tag": "Languages",
         "keywords": "Chinese separable verbs shopping transport location time",
@@ -185,7 +633,7 @@
     },
     {
         "title": "Chinese in 5 Steps: Step 1",
-        "description": "Beginner Mandarin fundamentals: master pinyin pronunciation, basic greetings, and family introductions. Learn essential characters and sentence patterns.",
+        "description": "Beginner Mandarin fundamentals: master pinyin pronunciation and basic greetings.",
         "duration": "8 weeks",
         "tag": "Languages",
         "keywords": "Chinese pronouns adjectives numbers family dates hobby",
@@ -193,7 +641,7 @@
     },
     {
         "title": "Russian as a foreign language: from A2 to B1",
-        "description": "Transition course developing intermediate Russian skills through cultural topics and complex grammar. Focus on urban life, education systems, and historical landmarks.",
+        "description": "Transition course developing intermediate Russian skills through cultural topics.",
         "duration": "16 weeks",
         "tag": "Languages",
         "keywords": "Russian language A2-B1 grammar vocabulary culture exam",
@@ -201,7 +649,7 @@
     },
     {
         "title": "Russian as a foreign language: from A2 to B1. Part 4",
-        "description": "Advanced cultural Russian module examining historical monuments, economic developments, and notable figures in Russian society.",
+        "description": "Advanced cultural Russian module examining historical monuments and economic developments.",
         "duration": "-",
         "tag": "Languages",
         "keywords": "Russian culture monuments history famous figures grammar",
@@ -209,7 +657,7 @@
     },
     {
         "title": "Russian as a foreign language: from A2 to B1. Part 3",
-        "description": "Intermediate Russian course focusing on work environments, education systems, and language learning experiences.",
+        "description": "Intermediate Russian course focusing on work environments and education systems.",
         "duration": "-",
         "tag": "Languages",
         "keywords": "Russian work education language study word order participles",
@@ -217,7 +665,7 @@
     },
     {
         "title": "Russian as a foreign language: from A2 to B1. Part 2",
-        "description": "Develop Russian communication skills for urban navigation, hospitality interactions, and cultural experiences.",
+        "description": "Develop Russian communication skills for urban navigation and hospitality interactions.",
         "duration": "-",
         "tag": "Languages",
         "keywords": "Russian city services travel cafes hotels motion verbs",
@@ -225,7 +673,7 @@
     },
     {
         "title": "Russian as a foreign language: from A2 to B1. Part 1",
-        "description": "Beginner-intermediate Russian course covering personal introductions, hobby discussions, and family traditions.",
+        "description": "Beginner-intermediate Russian course covering personal introductions and hobby discussions.",
         "duration": "-",
         "tag": "Languages",
         "keywords": "Russian self-introduction hobbies family reflexive verbs comparison",
@@ -233,7 +681,7 @@
     },
     {
         "title": "Space Weather: Environmental Impact Assessment",
-        "description": "Study solar-terrestrial interactions and space weather effects on Earth's environment. Analyze radiation impacts, atmospheric changes, and technological vulnerabilities.",
+        "description": "Study solar-terrestrial interactions and space weather effects on Earth's environment.",
         "duration": "6 weeks",
         "tag": "Technology",
         "keywords": "space weather solar activity cosmic rays atmosphere ozone climate",
@@ -241,7 +689,7 @@
     },
     {
         "title": "Preparation for TORFL level B2",
-        "description": "Comprehensive preparation for advanced Russian certification. Master academic vocabulary, complex syntax, and formal writing techniques.",
+        "description": "Comprehensive preparation for advanced Russian certification. Master academic vocabulary and complex syntax.",
         "duration": "6 weeks",
         "tag": "Languages",
         "keywords": "TORFL B2 exam subtests vocabulary grammar speaking strategy",
@@ -249,7 +697,7 @@
     },
     {
         "title": "Chinese in 5 Steps: Getting Started with Pronunciation",
-        "description": "Foundational Mandarin course focusing on pinyin mastery. Learn tone differentiation, syllable construction, and pronunciation rules through practical exercises.",
+        "description": "Foundational Mandarin course focusing on pinyin mastery and pronunciation rules.",
         "duration": "6 weeks",
         "tag": "Languages",
         "keywords": "Chinese pinyin tones syllables pronunciation phonetics listening",
@@ -257,7 +705,7 @@
     },
     {
         "title": "Introduction to the Topic of Finance Essentials",
-        "description": "Corporate finance fundamentals covering financial forecasting, investment analysis, and strategic decision-making processes.",
+        "description": "Corporate finance fundamentals covering financial forecasting and investment analysis.",
         "duration": "5 weeks",
         "tag": "Finance",
         "keywords": "finance basics corporate value analysis forecasting investment",
@@ -265,7 +713,7 @@
     },
     {
         "title": "Emerging Multinationals and Global Strategy",
-        "description": "Analyze internationalization strategies of emerging market firms. Study market entry approaches, cross-cultural management, and global competitive advantage.",
+        "description": "Analyze internationalization strategies of emerging market firms and global competitive advantage.",
         "duration": "5 weeks",
         "tag": "Finance",
         "keywords": "emerging markets multinationals internationalization FDI competitive advantage",
@@ -273,7 +721,7 @@
     },
     {
         "title": "Investments and Valuation",
-        "description": "Advanced financial analysis course teaching investment appraisal techniques, cost of capital calculations, and business valuation methods.",
+        "description": "Advanced financial analysis course teaching investment appraisal and business valuation methods.",
         "duration": "5 weeks",
         "tag": "Finance",
         "keywords": "investment appraisal NPV WACC valuation capital budgeting",
@@ -281,7 +729,7 @@
     },
     {
         "title": "ESG Finance",
-        "description": "Explore environmental, social, and governance factors in modern finance. Learn sustainable investing principles and ESG reporting standards.",
+        "description": "Explore environmental, social, and governance factors in modern finance and sustainable investing principles.",
         "duration": "5 weeks",
         "tag": "Finance",
         "keywords": "ESG sustainability reporting ratings green finance SDGs",
@@ -289,7 +737,7 @@
     },
     {
         "title": "Performance Management and Decision-Making",
-        "description": "Master budgeting techniques, cost analysis, and KPI development for organizational performance optimization.",
+        "description": "Master budgeting techniques and cost analysis for organizational performance optimization.",
         "duration": "5 weeks",
         "tag": "Finance",
         "keywords": "costing budgeting variance analysis decision-making KPIs",
@@ -297,7 +745,7 @@
     },
     {
         "title": "Financial Accounting",
-        "description": "IFRS-based accounting course covering financial statement preparation, revenue recognition, and cash flow analysis.",
+        "description": "IFRS-based accounting course covering financial statement preparation and cash flow analysis.",
         "duration": "6 weeks",
         "tag": "Finance",
         "keywords": "financial statements IFRS assets liabilities cash-flow revenue",
@@ -305,7 +753,7 @@
     },
     {
         "title": "Arabic for Beginners. Part 3",
-        "description": "Pre-intermediate Arabic program teaching restaurant interactions, travel planning, and shopping dialogues. Focus on participle usage and numeral systems.",
+        "description": "Pre-intermediate Arabic program teaching restaurant interactions and travel planning.",
         "duration": "4–5 weeks",
         "tag": "Languages",
         "keywords": "Arabic verb forms numerals shopping travel passive voice",
@@ -313,7 +761,7 @@
     },
     {
         "title": "Arabic for Beginners. Part 2",
-        "description": "Elementary Arabic course developing conversational skills for meetings, hotel stays, and city navigation. Introduce prepositional phrases and adjective agreement.",
+        "description": "Elementary Arabic course developing conversational skills for meetings and hotel stays.",
         "duration": "5 weeks",
         "tag": "Languages",
         "keywords": "Arabic declension pronouns sentences prepositions hotel city walk",
@@ -321,7 +769,7 @@
     },
     {
         "title": "Quantum Computer Programming on Python with Qiskit",
-        "description": "Practical quantum programming course using IBM's Qiskit framework. Implement algorithms and run experiments on real quantum processors.",
+        "description": "Practical quantum programming course using IBM's Qiskit framework to implement algorithms.",
         "duration": "4 weeks",
         "tag": "Programming",
         "keywords": "Python Qiskit quantum circuits algorithms IBM Quantum",
@@ -329,7 +777,7 @@
     },
     {
         "title": "Russian for Beginners. Part 4",
-        "description": "Advanced beginner Russian covering health discussions, environmental issues, and professional activities. Master verb aspects and case system.",
+        "description": "Advanced beginner Russian covering health discussions and environmental issues.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian hobbies interests holidays instrumental case location verbs",
@@ -337,7 +785,7 @@
     },
     {
         "title": "Russian for Beginners. Part 3",
-        "description": "Final part of a 4-course series covering essential Russian grammar (verbs of motion, noun cases), 150+ vocabulary words for daily communication, and preparation for advanced courses. Focuses on shopping, travel, and city life contexts.",
+        "description": "Final part of a 4-course series covering essential Russian grammar and vocabulary for daily communication.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian shopping motion verbs seasons future tense genitive",
@@ -345,7 +793,7 @@
     },
     {
         "title": "Russian for Beginners. Part 2",
-        "description": "Continues foundational Russian studies with sentence structure, noun genders, present/past tense verbs, and 100+ conversational phrases. Covers greetings, professions, and family terms.",
+        "description": "Continues foundational Russian studies with sentence structure and present/past tense verbs.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian greetings family preferences adjectives present tense",
@@ -353,7 +801,7 @@
     },
     {
         "title": "Russian for Beginners. Part 1: Alphabet",
-        "description": "Introduction to Cyrillic alphabet, pronunciation rules, and basic phonetics. Prepares learners for further Russian studies through 150+ exercises.",
+        "description": "Introduction to Cyrillic alphabet and pronunciation rules.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian alphabet Cyrillic vowels consonants pronunciation writing",
@@ -361,7 +809,7 @@
     },
     {
         "title": "Multi-agent Technologies",
-        "description": "Explores decentralized problem-solving in AI, optimization, and logistics. Focuses on emergent intelligence in distributed agent networks.",
+        "description": "Explores decentralized problem-solving in AI and optimization.",
         "duration": "-",
         "tag": "Programming",
         "keywords": "multi-agent systems distributed AI optimization swarm intelligence",
@@ -369,7 +817,7 @@
     },
     {
         "title": "Visual Perception and Visual Illusions",
-        "description": "Examines visual cognition mechanisms through physiology, color/motion perception, 3D vision, and perceptual illusions. Includes art applications.",
+        "description": "Examines visual cognition mechanisms and perceptual illusions.",
         "duration": "8 weeks",
         "tag": "Medicine",
         "keywords": "visual perception illusions color motion depth cognition",
@@ -377,7 +825,7 @@
     },
     {
         "title": "Introduction to Data Analysis",
-        "description": "Foundational course covering statistical analysis, clustering, machine learning, and neural networks. Practical applications in data science.",
+        "description": "Foundational course covering statistical analysis and machine learning in data science.",
         "duration": "4 weeks",
         "tag": "Data",
         "keywords": "data analysis statistics clustering machine learning neural networks",
@@ -385,7 +833,7 @@
     },
     {
         "title": "Introduction to Video Game Law: A Russian Perspective",
-        "description": "Analyzes legal aspects of gaming including IP rights, content regulation, virtual property, and eSports through Russian jurisprudence.",
+        "description": "Analyzes legal aspects of gaming including IP rights and content regulation.",
         "duration": "6 weeks",
         "tag": "Law",
         "keywords": "video game law intellectual property virtual goods esports regulation",
@@ -393,7 +841,7 @@
     },
     {
         "title": "Global Talent Management",
-        "description": "Strategies for attracting/retaining global talent across diverse contexts. Covers mobility, cultural diversity, and modern organizational challenges.",
+        "description": "Strategies for attracting and retaining global talent across diverse contexts.",
         "duration": "12 weeks",
         "tag": "Finance",
         "keywords": "talent management recruitment global mobility diversity leadership",
@@ -401,7 +849,7 @@
     },
     {
         "title": "Managing Diverse Talent",
-        "description": "Focuses on expatriation, cultural diversity management, and gender inclusion within global organizations.",
+        "description": "Focuses on expatriation and cultural diversity management within global organizations.",
         "duration": "4 weeks",
         "tag": "Finance",
         "keywords": "global talent management mobility expatriation cultural diversity diasporas gender",
@@ -409,7 +857,7 @@
     },
     {
         "title": "Creating Talent Leadership in Different Contexts",
-        "description": "Comparative study of talent management practices in Asia, Latin America, Eastern Europe, and Oceania.",
+        "description": "Comparative study of talent management practices in various regions.",
         "duration": "4 weeks",
         "tag": "Finance",
         "keywords": "talent management Asia Latin America Eastern Europe Russia Australia New Zealand",
@@ -417,7 +865,7 @@
     },
     {
         "title": "Talent Management in Global Organization",
-        "description": "Introduces talent management concepts, macro-level strategies, and corporate practices in multinational settings.",
+        "description": "Introduces talent management concepts and corporate practices in multinational settings.",
         "duration": "4 weeks",
         "tag": "Finance",
         "keywords": "talent strategy human capital macro talent practices leadership turbulence",
@@ -425,7 +873,7 @@
     },
     {
         "title": "The Gems of Middle Eastern Literature",
-        "description": "Surveys literary history from ancient texts to modern works, including Quranic influences and contemporary authors.",
+        "description": "Surveys literary history from ancient texts to modern works.",
         "duration": "-",
         "tag": "History",
         "keywords": "Middle Eastern literature translation history Qurʾanic themes Persia Turkey",
@@ -433,7 +881,7 @@
     },
     {
         "title": "Russian Language А1+. Part 4",
-        "description": "Final A2-level preparation covering prefixed verbs, city/transport vocabulary, and university-related communication scenarios.",
+        "description": "Final A2-level preparation covering prefixed verbs and city vocabulary.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian language A1+ city country famous people TORFL preparation",
@@ -441,7 +889,7 @@
     },
     {
         "title": "Russian Language А1+. Part 3",
-        "description": "Focuses on holiday traditions, nature vocabulary, and peer-reviewed writing/speaking tasks at A1+/A2 level.",
+        "description": "Focuses on holiday traditions and nature vocabulary at A1+/A2 level.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian language A1+ holidays traditions weather wishes TORFL",
@@ -449,7 +897,7 @@
     },
     {
         "title": "Russian Language А1+. Part 2",
-        "description": "Covers daily routines, health conversations, and advice-giving structures with complex sentence practice.",
+        "description": "Covers daily routines and health conversations with complex sentence practice.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian language A1+ daily life health body feelings TORFL",
@@ -457,7 +905,7 @@
     },
     {
         "title": "Russian Language А1+. Part 1",
-        "description": "Introduces work/leisure vocabulary, future tense formation, and basic travel-related communication.",
+        "description": "Introduces work/leisure vocabulary and future tense formation.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian language A1+ routine work leisure travel future tense",
@@ -465,7 +913,7 @@
     },
     {
         "title": "Russian Language A1+: Elementary to Basic",
-        "description": "4-course series progressing from elementary grammar/vocabulary to basic communication skills with peer-reviewed assignments.",
+        "description": "4-course series progressing from elementary grammar to basic communication skills.",
         "duration": "16 weeks",
         "tag": "Languages",
         "keywords": "Russian language A1+ vocabulary grammar reading listening speaking TORFL",
@@ -473,7 +921,7 @@
     },
     {
         "title": "Criminology",
-        "description": "Studies crime causation, control methods, and criminological theories from classical to modern integrative approaches.",
+        "description": "Studies crime causation, control methods, and criminological theories.",
         "duration": "8 weeks",
         "tag": "Law",
         "keywords": "crime statistics theories prevention punishment criminal policy",
@@ -481,7 +929,7 @@
     },
     {
         "title": "Adobe Illustrator for Beginners",
-        "description": "Practical guide to vector graphics creation, color theory, typography, and print preparation using Adobe tools.",
+        "description": "Practical guide to vector graphics creation and typography using Adobe tools.",
         "duration": "5 weeks",
         "tag": "Technology",
         "keywords": "vector graphics design illustration color typography layout",
@@ -489,7 +937,7 @@
     },
     {
         "title": "Structure of Matter: Atoms, Molecules, Nanomaterials. Part 2",
-        "description": "Advanced exploration of atomic structures, chemical bonds, and modern nanomaterials applications.",
+        "description": "Advanced exploration of atomic structures and nanomaterials applications.",
         "duration": "6 weeks",
         "tag": "Chemistry",
         "keywords": "atomic structure molecules bonds nanomaterials properties digital chemistry",
@@ -497,7 +945,7 @@
     },
     {
         "title": "Structure of Matter: Atoms, Molecules, Nanomaterials. Part 1",
-        "description": "Foundations of atomic/molecular structures and their relationship to material properties and periodic law.",
+        "description": "Foundations of atomic/molecular structures and their relationship to material properties.",
         "duration": "6 weeks",
         "tag": "Chemistry",
         "keywords": "quantum chemistry atoms periodic law intermolecular interactions materials",
@@ -505,7 +953,7 @@
     },
     {
         "title": "Heart Physiology",
-        "description": "Comprehensive study of cardiac function including electrophysiology, ECG interpretation, and coronary circulation.",
+        "description": "Comprehensive study of cardiac function including electrophysiology and ECG interpretation.",
         "duration": "6 weeks",
         "tag": "Medicine",
         "keywords": "cardiac electrophysiology myocardium ECG regulation coronary circulation",
@@ -513,7 +961,7 @@
     },
     {
         "title": "Startups in Open Innovation",
-        "description": "Covers digital economy models, open innovation strategies, and government support systems for startups.",
+        "description": "Covers digital economy models and open innovation strategies for startups.",
         "duration": "5 weeks",
         "tag": "Finance",
         "keywords": "startup open innovation crowdsourcing digital economy business model",
@@ -521,7 +969,7 @@
     },
     {
         "title": "Practices of Digital Transformation",
-        "description": "Guides digital maturity assessment, business process optimization, and infrastructure evaluation techniques.",
+        "description": "Guides digital maturity assessment and business process optimization techniques.",
         "duration": "4 weeks",
         "tag": "Technology",
         "keywords": "digital transformation business processes ICT infrastructure maturity assessment",
@@ -529,7 +977,7 @@
     },
     {
         "title": "Commercialization of Innovation Activity Results",
-        "description": "Focuses on IP management, technology valuation, and commercialization strategies for innovative projects.",
+        "description": "Focuses on IP management and technology commercialization strategies.",
         "duration": "5 weeks",
         "tag": "Law",
         "keywords": "intellectual property patents valuation technology transfer licensing",
@@ -537,7 +985,7 @@
     },
     {
         "title": "Digitalization in International Relations",
-        "description": "Analyzes digital diplomacy, cybersecurity, internet governance, and AI's impact on global politics.",
+        "description": "Analyzes digital diplomacy and cybersecurity in global politics.",
         "duration": "-",
         "tag": "Technology",
         "keywords": "digital diplomacy big data cybersecurity internet governance e-voting",
@@ -545,7 +993,7 @@
     },
     {
         "title": "Conflict and Stress Management",
-        "description": "Practical approaches to organizational conflict resolution, negotiation techniques, and stress reduction strategies.",
+        "description": "Practical approaches to organizational conflict resolution and stress reduction strategies.",
         "duration": "7 weeks",
         "tag": "Medicine",
         "keywords": "organizational conflicts negotiation NLP stress coping communication",
@@ -553,7 +1001,7 @@
     },
     {
         "title": "Business Russian Communication",
-        "description": "4-part series developing professional Russian skills for presentations, negotiations, and corporate correspondence.",
+        "description": "4-part series developing professional Russian skills for presentations and negotiations.",
         "duration": "16 weeks",
         "tag": "Languages",
         "keywords": "business Russian communication vocabulary emails negotiations sales",
@@ -561,7 +1009,7 @@
     },
     {
         "title": "Business Russian Communication. Part 4",
-        "description": "Focuses on sales terminology, contract negotiations, and conflict resolution in business contexts.",
+        "description": "Focuses on sales terminology and contract negotiations in business contexts.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian business sales contracts conflict resolution comparative adjectives",
@@ -569,7 +1017,7 @@
     },
     {
         "title": "Business Russian Communication. Part 3",
-        "description": "Covers cooperation terms, market analysis, and company presentations in Russian business settings.",
+        "description": "Covers cooperation terms and market analysis in Russian business settings.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian business cooperation market presentation genitive numerals",
@@ -577,7 +1025,7 @@
     },
     {
         "title": "Business Russian Communication. Part 2",
-        "description": "Teaches meeting arrangements, planning discussions, and professional email communication in Russian.",
+        "description": "Teaches meeting arrangements and professional email communication in Russian.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian business phone meetings planning email correspondence verbs",
@@ -585,7 +1033,7 @@
     },
     {
         "title": "Business Russian Communication. Part 1",
-        "description": "Introduces business introductions, sector-specific vocabulary, and informal workplace communication.",
+        "description": "Introduces business introductions and sector-specific vocabulary.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Russian business self-presentation company profile hobbies cases",
@@ -593,7 +1041,7 @@
     },
     {
         "title": "Brand Management in Digital Economy",
-        "description": "Explores digital branding strategies, communication platforms, and portfolio management in modern markets.",
+        "description": "Explores digital branding strategies and portfolio management in modern markets.",
         "duration": "6 weeks",
         "tag": "Finance",
         "keywords": "brand equity digital branding communications portfolio strategy",
@@ -601,7 +1049,7 @@
     },
     {
         "title": "Aerial Photography with UAV",
-        "description": "Practical course on UAV operation, flight planning, and geodetic data processing for aerial imaging.",
+        "description": "Practical course on UAV operation and flight planning for aerial imaging.",
         "duration": "6 weeks",
         "tag": "Technology",
         "keywords": "UAV drone aerial survey geodesy flight planning photogrammetry",
@@ -625,15 +1073,318 @@
     },
     {
         "title": "History of Russia: From Peter the Great to the Revolution",
-        "description": "Surveys Imperial Russia's transformation from Petrine reforms to 1917 revolutions and Civil War.",
+        "description": "Surveys Imperial Russia's transformation from Petrine reforms to 1917 revolutions.",
         "duration": "5 weeks",
         "tag": "History",
         "keywords": "Russian history 18th century reforms 19th century revolution 1917",
         "link": "https://online.spbu.ru/history-of-russia-from-peter-the-great-to-the-revolution/"
+    },{
+        "title": "Introduction to Cybersecurity",
+        "description": "Learn threat analysis, vulnerability assessment, and network defense strategies.",
+        "duration": "69 hours",
+        "tag": "Technology",
+        "keywords": "cybersecurity threat analysis network defense",
+        "link": "https://www.udacity.com/course/intro-to-cybersecurity-nanodegree--nd545"
+    },
+    {
+        "title": "Site Reliability Engineer",
+        "description": "Develop automation tools for system reliability, availability, and performance.",
+        "duration": "60 hours",
+        "tag": "Technology",
+        "keywords": "SRE automation reliability systems",
+        "link": "https://www.udacity.com/course/site-reliability-engineer-nanodegree--nd087"
+    },
+    {
+        "title": "Java Programming",
+        "description": "Elevate Java skills for software design, coding, testing, and deployment.",
+        "duration": "61 hours",
+        "tag": "Programming",
+        "keywords": "Java programming software development",
+        "link": "https://www.udacity.com/course/java-programming-nanodegree--nd079"
+    },
+    {
+        "title": "AI For Business Leaders",
+        "description": "Embed machine learning into corporate strategy and evaluate AI opportunities.",
+        "duration": "28 hours",
+        "tag": "Technology",
+        "keywords": "AI business leaders machine learning strategy",
+        "link": "https://www.udacity.com/course/ai-for-business-leaders--nd054"
+    },
+    {
+        "title": "Data Architect",
+        "description": "Design enterprise data systems, model data, and ensure security and scalability.",
+        "duration": "73 hours",
+        "tag": "Data",
+        "keywords": "data architect cloud integration security",
+        "link": "https://www.udacity.com/course/data-architect-nanodegree--nd038"
+    },
+    {
+        "title": "Full Stack Web Developer",
+        "description": "Create scalable server-side web applications supporting any front-end.",
+        "duration": "67 hours",
+        "tag": "Programming",
+        "keywords": "full stack web developer applications",
+        "link": "https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044"
+    },
+    {
+        "title": "Cloud Developer",
+        "description": "Build scalable cloud apps with AWS, microservices, and serverless architectures.",
+        "duration": "60 hours",
+        "tag": "Technology",
+        "keywords": "cloud developer AWS microservices serverless",
+        "link": "https://www.udacity.com/course/cloud-developer-nanodegree--nd9990"
+    },
+    {
+        "title": "Intermediate Python",
+        "description": "Apply Python skills for file classification, data mining, and advanced coding tasks.",
+        "duration": "35 hours",
+        "tag": "Programming",
+        "keywords": "Python data mining machine learning",
+        "link": "https://www.udacity.com/course/intermediate-python-nanodegree--nd303"
+    },
+    {
+        "title": "AI Product Manager",
+        "description": "Incorporate AI/ML into products, create PRDs, and strategize LLM integration.",
+        "duration": "18 hours",
+        "tag": "Technology",
+        "keywords": "AI product manager machine learning LLM",
+        "link": "https://www.udacity.com/course/ai-product-manager-nanodegree--nd088"
+    },
+    {
+        "title": "Data Science for Business Leaders",
+        "description": "Develop organizational data science strategies and 100-day implementation plans.",
+        "duration": "25 hours",
+        "tag": "Data",
+        "keywords": "data science business strategy analytics",
+        "link": "https://www.udacity.com/course/data-science-for-business-leaders--nd045"
+    },
+    {
+        "title": "Intermediate JavaScript",
+        "description": "Prepare for roles in web, server-side, and desktop development with advanced JS.",
+        "duration": "41 hours",
+        "tag": "Programming",
+        "keywords": "JavaScript web development server-side",
+        "link": "https://www.udacity.com/course/intermediate-javascript-nanodegree--nd032"
+    },
+    {
+        "title": "Data Streaming",
+        "description": "Process real-time data with Apache Spark, Kafka, and streaming tools.",
+        "duration": "53 hours",
+        "tag": "Data",
+        "keywords": "data streaming Spark Kafka real-time",
+        "link": "https://www.udacity.com/course/data-streaming-nanodegree--nd029"
+    },
+    {
+        "title": "Cloud DevOps using Microsoft Azure",
+        "description": "Deploy, test, and monitor cloud apps on Azure for DevOps certification.",
+        "duration": "54 hours",
+        "tag": "Technology",
+        "keywords": "DevOps Azure cloud deployment",
+        "link": "https://www.udacity.com/course/cloud-devops-using-microsoft-azure-nanodegree--nd082"
+    },
+    {
+        "title": "Cloud Developer using Microsoft Azure",
+        "description": "Build, migrate, and monitor Azure apps for developer certification.",
+        "duration": "51 hours",
+        "tag": "Technology",
+        "keywords": "Azure cloud developer applications",
+        "link": "https://www.udacity.com/course/cloud-developer-using-microsoft-azure-nanodegree--nd081"
+    },
+    {
+        "title": "Data Product Manager",
+        "description": "Gain tech expertise in data domain for product development and maintenance.",
+        "duration": "55 hours",
+        "tag": "Data",
+        "keywords": "data product manager tech",
+        "link": "https://www.udacity.com/course/data-product-manager-nanodegree--nd030"
+    },
+    {
+        "title": "Data Engineering with Microsoft Azure",
+        "description": "Build data warehouses, lakes, and pipelines on Azure with Synapse and Databricks.",
+        "duration": "56 hours",
+        "tag": "Data",
+        "keywords": "data engineering Azure pipelines",
+        "link": "https://www.udacity.com/course/data-engineering-with-microsoft-azure-nanodegree--nd0277"
+    },
+    {
+        "title": "Self Driving Car Engineer",
+        "description": "Develop autonomous vehicle technology and revolutionize transportation.",
+        "duration": "80 hours",
+        "tag": "Technology",
+        "keywords": "self driving car autonomous vehicles",
+        "link": "https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013"
+    },
+    {
+        "title": "Ethical Hacker",
+        "description": "Advance your cybersecurity career as an Ethical Hacker or Penetration Tester.",
+        "duration": "37 hours",
+        "tag": "Technology",
+        "keywords": "ethical hacker cybersecurity penetration testing",
+        "link": "https://www.udacity.com/course/ethical-hacker-nanodegree--nd350"
+    },
+    {
+        "title": "Machine Learning Engineer with Microsoft Azure",
+        "description": "Deploy and manage ML models on Azure, including MLOps and pipeline components.",
+        "duration": "40 hours",
+        "tag": "Data",
+        "keywords": "machine learning Azure MLOps",
+        "link": "https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333"
+    },
+    {
+        "title": "Go Language (Golang)",
+        "description": "Learn Go fundamentals, test code, and build a web server.",
+        "duration": "12 hours",
+        "tag": "Programming",
+        "keywords": "Go Golang web server programming",
+        "link": "https://www.udacity.com/course/golang--cd11970"
+    },
+    {
+        "title": "AI Engineer using Microsoft Azure",
+        "description": "Implement AI solutions with Azure Cognitive Services and machine learning.",
+        "duration": "54 hours",
+        "tag": "Technology",
+        "keywords": "AI engineer Azure machine learning",
+        "link": "https://www.udacity.com/course/ai-engineer-using-microsoft-azure--nd073"
+    },
+    {
+        "title": "AI Trading Strategies",
+        "description": "Build AI-based trading models with preprocessing, backtesting, and optimization.",
+        "duration": "96 hours",
+        "tag": "Finance",
+        "keywords": "AI trading strategies backtesting finance",
+        "link": "https://www.udacity.com/course/ai-trading-strategies--nd881"
+    },
+    {
+        "title": "Embedded Systems Fundamentals",
+        "description": "Explore microcontrollers, digital signals, and logical circuit design.",
+        "duration": "33 hours",
+        "tag": "Technology",
+        "keywords": "embedded systems microcontrollers circuits",
+        "link": "https://www.udacity.com/course/embedded-systems-fundamentals--nd790"
+    },
+    {
+        "title": "Digital Arts Foundations",
+        "description": "Master digital art, color theory, typography, and design principles with Canva and Adobe.",
+        "duration": "33 hours",
+        "tag": "Technology",
+        "keywords": "digital arts design color theory",
+        "link": "https://www.udacity.com/course/digital-arts-foundation--nd549"
+    },
+    {
+        "title": "Google Analytics 4",
+        "description": "Track events, analyze user behavior, and create dashboards with GA4 and Looker Studio.",
+        "duration": "22 hours",
+        "tag": "Data",
+        "keywords": "Google Analytics GA4 data visualization",
+        "link": "https://www.udacity.com/course/google-analytics-four--nd525"
+    },
+    {
+        "title": "Business Intelligence Analytics",
+        "description": "Transform data into strategic insights with advanced BI techniques and data modeling.",
+        "duration": "48 hours",
+        "tag": "Data",
+        "keywords": "business intelligence analytics data models",
+        "link": "https://www.udacity.com/course/business-intelligence-analytics-nanodegree--nd429"
+    },
+    {
+        "title": "Blockchain Developer",
+        "description": "Learn blockchain fundamentals, write smart contracts, and deploy dApps with Solidity.",
+        "duration": "29 hours",
+        "tag": "Technology",
+        "keywords": "blockchain smart contracts Solidity",
+        "link": "https://www.udacity.com/course/blockchain-developer--nd1310"
+    },
+    {
+        "title": "Digital Transformation for Business Leaders",
+        "description": "Lead digital change using cloud, AI, and cybersecurity to drive business innovation.",
+        "duration": "7 hours",
+        "tag": "Technology",
+        "keywords": "digital transformation cloud AI",
+        "link": "https://www.udacity.com/course/digital-transformation-for-business-leaders--nd055"
+    },
+    {
+        "title": "Robotics and Embedded Systems",
+        "description": "Design, implement, and troubleshoot embedded systems with sensors and communication protocols.",
+        "duration": "27 hours",
+        "tag": "Technology",
+        "keywords": "robotics embedded systems sensors",
+        "link": "https://www.udacity.com/course/robotics-and-embedded-systems--nd003-embsys"
+    },
+    {
+        "title": "2D Game Design and Development with Unity",
+        "description": "Learn game design fundamentals, create environments, and build 2D games with Unity.",
+        "duration": "40 hours",
+        "tag": "Technology",
+        "keywords": "game design Unity 2D development",
+        "link": "https://www.udacity.com/course/2D-game-design-and-development--nd003-digitalarts"
+    },
+    {
+        "title": "Introduction to Robotics",
+        "description": "Master motor control, DC motors, encoders, and embedded systems for robotics.",
+        "duration": "33 hours",
+        "tag": "Technology",
+        "keywords": "robotics motor control embedded systems",
+        "link": "https://www.udacity.com/course/introduction-to-robotics--nd002-embsys"
+    },
+    {
+        "title": "2D Animation and Video Editing",
+        "description": "Create digital animations, character motion, and dynamic graphics for storytelling.",
+        "duration": "38 hours",
+        "tag": "Technology",
+        "keywords": "animation video editing motion graphics",
+        "link": "https://www.udacity.com/course/2D-animation-and-video-editing--nd002-digitalarts"
+    },
+    {
+        "title": "Connecting to Hardware",
+        "description": "Interface with digital/analog devices, process signals, and debug embedded systems.",
+        "duration": "27 hours",
+        "tag": "Technology",
+        "keywords": "hardware embedded systems signals",
+        "link": "https://www.udacity.com/course/connecting-to-hardware--nd001-embsys"
+    },
+    {
+        "title": "Photo Editing and Web Design",
+        "description": "Edit images, explore branding, and design websites using raster graphics tools.",
+        "duration": "33 hours",
+        "tag": "Technology",
+        "keywords": "photo editing web design branding",
+        "link": "https://www.udacity.com/course/digital-arts--nd001-digitalarts"
+    },
+    {
+        "title": "Computer Literacy Fundamentals",
+        "description": "Explore software, hardware, programming, multimedia, and network basics.",
+        "duration": "53 hours",
+        "tag": "Technology",
+        "keywords": "computer literacy software hardware",
+        "link": "https://www.udacity.com/course/computer-literacy--nd001-comp-literacy"
+    },
+    {
+        "title": "UX Design Fluency",
+        "description": "Learn core principles of User Experience Design for digital products.",
+        "duration": "11 hours",
+        "tag": "Technology",
+        "keywords": "UX design user experience",
+        "link": "https://www.udacity.com/course/ux-design-fluency--cd5238"
+    },
+    {
+        "title": "DevOps Fluency",
+        "description": "Study Infrastructure as Code, CI/CD, and automated testing/monitoring in DevOps.",
+        "duration": "8 hours",
+        "tag": "Technology",
+        "keywords": "DevOps CI/CD automation",
+        "link": "https://www.udacity.com/course/dev-ops-fluency--cd5234"
+    },
+    {
+        "title": "Intro to Web Development Fluency",
+        "description": "Create web pages and understand HTML, CSS, and JavaScript fundamentals.",
+        "duration": "7 hours",
+        "tag": "Programming",
+        "keywords": "web development HTML CSS JavaScript",
+        "link": "https://www.udacity.com/course/intro-to-web-development-fluency--cd5233"
     },
     {
         "title": "Arabic for Beginners. Part 1",
-        "description": "Introductory Arabic course focusing on alphabet mastery, basic grammar, and simple dialogue construction.",
+        "description": "Introductory Arabic course focusing on alphabet mastery and basic grammar.",
         "duration": "5 weeks",
         "tag": "Languages",
         "keywords": "Arabic alphabet pronunciation grammar basic phrases writing",
@@ -641,7 +1392,7 @@
     },
     {
         "title": "Japanese for Beginners. Part 2",
-        "description": "Expands on basic Japanese with 200+ vocabulary words, kanji recognition, and daily communication scenarios.",
+        "description": "Expands on basic Japanese with vocabulary words and daily communication scenarios.",
         "duration": "5 weeks",
         "tag": "Languages",
         "keywords": "Japanese kanji grammar daily life travel hobbies dialogs",
@@ -649,7 +1400,7 @@
     },
     {
         "title": "Japanese for Beginners. Part 1",
-        "description": "Foundational course teaching hiragana/katakana writing systems and essential grammar structures.",
+        "description": "Foundational course teaching hiragana/katakana writing systems and essential grammar.",
         "duration": "5 weeks",
         "tag": "Languages",
         "keywords": "Japanese hiragana katakana Kanji greetings basic grammar culture",
@@ -657,7 +1408,7 @@
     },
     {
         "title": "Algorithms with Numbers",
-        "description": "Covers number theory algorithms, linear algebra solutions, and FFT applications in competitive programming.",
+        "description": "Covers number theory algorithms and linear algebra solutions in competitive programming.",
         "duration": "4 weeks",
         "tag": "Programming",
         "keywords": "number theory Euclidean algorithm big integers linear algebra FFT",
@@ -665,7 +1416,7 @@
     },
     {
         "title": "Quantum Computing. Less Formulas – More Understanding",
-        "description": "Conceptual introduction to quantum models, cryptography, and teleportation without advanced mathematics.",
+        "description": "Conceptual introduction to quantum models and cryptography without advanced mathematics.",
         "duration": "5 weeks",
         "tag": "Technology",
         "keywords": "quantum computing physics model algorithms cryptography teleportation",
@@ -673,7 +1424,7 @@
     },
     {
         "title": "One-way Quantum Computation",
-        "description": "Explores continuous-variable quantum models and error correction methods in advanced computing systems.",
+        "description": "Explores continuous-variable quantum models and error correction methods.",
         "duration": "5 weeks",
         "tag": "Technology",
         "keywords": "cluster states measurement based computing continuous variables error correction",
@@ -681,7 +1432,7 @@
     },
     {
         "title": "The Introduction to Quantum Computing",
-        "description": "Fundamentals of quantum logic, Shor's/Grover's algorithms, and quantum computer architecture basics.",
+        "description": "Fundamentals of quantum logic and quantum computer architecture basics.",
         "duration": "5 weeks",
         "tag": "Technology",
         "keywords": "quantum computing basics qubits Shor Grover algorithms",
@@ -689,7 +1440,7 @@
     },
     {
         "title": "Quantum Computing: from Basics to the Cutting Edge",
-        "description": "Comprehensive 4-course series covering quantum theory, algorithms, and modern computation models.",
+        "description": "Comprehensive 4-course series covering quantum theory and modern computation models.",
         "duration": "20 weeks",
         "tag": "Technology",
         "keywords": "quantum computing course bundle algorithms physics one-way models",
@@ -697,7 +1448,7 @@
     },
     {
         "title": "Physical Basics of Quantum Computing",
-        "description": "Examines quantum entanglement, superposition principles, and quantum algorithm design fundamentals.",
+        "description": "Examines quantum entanglement and superposition principles in quantum algorithm design.",
         "duration": "6 weeks",
         "tag": "Technology",
         "keywords": "quantum mechanics entanglement quantum gates algorithms error correction",
@@ -705,7 +1456,7 @@
     },
     {
         "title": "Fundamentals of Electron and Ion Microscopy",
-        "description": "Technical course on microscopy imaging techniques, signal detection, and nanoscale material analysis.",
+        "description": "Technical course on microscopy imaging techniques and nanoscale material analysis.",
         "duration": "5 weeks",
         "tag": "Technology",
         "keywords": "electron microscopy SEM TEM focused ion beam imaging analysis",
@@ -713,7 +1464,7 @@
     },
     {
         "title": "Test of Russian as a Foreign Language (TORFL/ТРКИ): B1",
-        "description": "Preparation course for B1 certification exam covering all test components through practice modules.",
+        "description": "Preparation course for B1 certification exam covering all test components.",
         "duration": "6 weeks",
         "tag": "Languages",
         "keywords": "Russian TORFL B1 vocabulary grammar reading listening speaking",
@@ -721,7 +1472,7 @@
     },
     {
         "title": "Rehabilitation After COVID-19",
-        "description": "Evidence-based strategies for physical, cognitive, and emotional recovery post-COVID infection.",
+        "description": "Evidence-based strategies for physical and emotional recovery post-COVID infection.",
         "duration": "5 weeks",
         "tag": "Medicine",
         "keywords": "COVID-19 rehabilitation physical therapy cognitive emotional recovery",
@@ -729,7 +1480,7 @@
     },
     {
         "title": "SARS-CoV-2 and Acute Respiratory Viral Infections",
-        "description": "Virology-focused course examining coronavirus biology and pandemic impact on global health systems.",
+        "description": "Virology-focused course examining coronavirus biology and pandemic impact.",
         "duration": "5 weeks",
         "tag": "Medicine",
         "keywords": "virology coronavirus replication immunity diagnostics pathogenesis",
@@ -737,7 +1488,7 @@
     },
     {
         "title": "Intellectual Property Law in Digital Age",
-        "description": "Analyzes IP protection challenges in software, AI, and digital content creation contexts.",
+        "description": "Analyzes IP protection challenges in software and digital content creation contexts.",
         "duration": "4 weeks",
         "tag": "Law",
         "keywords": "intellectual property copyright patents software AI IoT",
@@ -745,7 +1496,7 @@
     },
     {
         "title": "Korean for Beginners",
-        "description": "4-part series teaching Hangul alphabet, basic grammar, and conversational skills for daily situations.",
+        "description": "4-part series teaching Hangul alphabet and basic grammar for daily situations.",
         "duration": "16 weeks",
         "tag": "Languages",
         "keywords": "Korean alphabet Hangul basic grammar vocabulary culture travel",
@@ -753,7 +1504,7 @@
     },
     {
         "title": "Korean for Beginners. Part 4",
-        "description": "Practical Korean for dining, shopping, and transportation scenarios with cultural context.",
+        "description": "Practical Korean for dining, shopping, and transportation scenarios.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Korean shopping restaurant transport dialogues peer assignment",
@@ -761,7 +1512,7 @@
     },
     {
         "title": "Korean for Beginners. Part 3",
-        "description": "Covers travel vocabulary, family terms, and hobby-related conversations with peer assessments.",
+        "description": "Covers travel vocabulary and family terms with peer assessments.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Korean travel hobbies family comparison honorifics self-introduction",
@@ -769,7 +1520,7 @@
     },
     {
         "title": "Korean for Beginners. Part 2",
-        "description": "Focuses on daily routines, time expressions, and weather-related communication in Korean.",
+        "description": "Focuses on daily routines and time expressions in Korean.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Korean daily routine time plans weather grammar",
@@ -777,7 +1528,7 @@
     },
     {
         "title": "Korean for Beginners. Part 1",
-        "description": "Introduces Hangul writing system, basic phrases, and self-introduction structures.",
+        "description": "Introduces Hangul writing system and basic phrases.",
         "duration": "4 weeks",
         "tag": "Languages",
         "keywords": "Korean Hangul introduction self-presentation possessive expressions",
@@ -785,7 +1536,7 @@
     },
     {
         "title": "History of Russia",
-        "description": "3-course series spanning ancient Slavic tribes to modern political developments with academic analysis.",
+        "description": "3-course series spanning ancient Slavic tribes to modern political developments.",
         "duration": "14 weeks",
         "tag": "History",
         "keywords": "Russian history ancient Rus imperial Soviet modern periods",
@@ -793,7 +1544,7 @@
     },
     {
         "title": "Contemporary Russian Literature",
-        "description": "Surveys post-Soviet literary trends and major authors from late 20th century to present.",
+        "description": "Surveys post-Soviet literary trends and major authors.",
         "duration": "10 weeks",
         "tag": "History",
         "keywords": "Russian literature late Soviet post-Soviet writers trends",
@@ -801,7 +1552,7 @@
     },
     {
         "title": "Computational Geometry",
-        "description": "Algorithmic solutions for geometric problems including convex hulls, intersections, and triangulation.",
+        "description": "Algorithmic solutions for geometric problems including convex hulls and triangulation.",
         "duration": "5 weeks",
         "tag": "Programming",
         "keywords": "geometry algorithms convex hull triangulation range search",
@@ -809,7 +1560,7 @@
     },
     {
         "title": "Startup: How to Build a Successful Business?",
-        "description": "Guides startup development from ideation to valuation, covering business models and fundraising.",
+        "description": "Guides startup development from ideation to valuation.",
         "duration": "6 weeks",
         "tag": "Finance",
         "keywords": "startup business model fundraising incorporation valuation",
@@ -817,7 +1568,7 @@
     },
     {
         "title": "International Labour Law",
-        "description": "Examines ILO standards, workers' rights protection, and corporate social responsibility frameworks.",
+        "description": "Examines ILO standards and workers' rights protection.",
         "duration": "10 weeks",
         "tag": "Law",
         "keywords": "ILO conventions labour rights human rights CSR globalization",
@@ -825,7 +1576,7 @@
     },
     {
         "title": "Neurolinguistics",
-        "description": "Studies brain-language relationships, aphasia, dyslexia, and modern research methodologies.",
+        "description": "Studies brain-language relationships and modern research methodologies.",
         "duration": "7 weeks",
         "tag": "Medicine",
         "keywords": "brain language EEG fMRI aphasia dyslexia bilingualism",
@@ -833,7 +1584,7 @@
     },
     {
         "title": "Fundamentals of the Chinese Character Writing. Part 2",
-        "description": "Advanced study of Chinese radicals and calligraphy techniques with historical context.",
+        "description": "Advanced study of Chinese radicals and calligraphy techniques.",
         "duration": "6 weeks",
         "tag": "Languages",
         "keywords": "Chinese calligraphy tools radicals stroke order aesthetics",
@@ -841,7 +1592,7 @@
     },
     {
         "title": "Russian as a foreign language: B2. Part 1",
-        "description": "Advanced Russian course focusing on complex grammar and professional communication skills.",
+        "description": "Advanced Russian course focusing on complex grammar and professional communication.",
         "duration": "7 weeks",
         "tag": "Languages",
         "keywords": "Russian language B2 advanced grammar vocabulary communication",
@@ -849,7 +1600,7 @@
     },
     {
         "title": "Russian as a foreign language: B2. Part 2",
-        "description": "Continues B2-level studies with emphasis on academic writing and advanced speaking tasks.",
+        "description": "Continues B2-level studies with emphasis on academic writing and advanced speaking.",
         "duration": "7 weeks",
         "tag": "Languages",
         "keywords": "Russian language B2 continuation speaking reading listening",
@@ -857,7 +1608,7 @@
     },
     {
         "title": "Russian as a foreign language: B1+. Part 2",
-        "description": "Intermediate course covering health, ecology, and cultural topics in Russian society.",
+        "description": "Intermediate course covering health, ecology, and cultural topics.",
         "duration": "7 weeks",
         "tag": "Languages",
         "keywords": "Russian language B1+ ecology culture holidays grammar practice",
@@ -873,7 +1624,7 @@
     },
     {
         "title": "The Development of Mobile Health Monitoring Systems",
-        "description": "Technical course on ECG system prototyping with hardware/software integration focus.",
+        "description": "Technical course on ECG system prototyping with hardware/software integration.",
         "duration": "5 weeks",
         "tag": "Technology",
         "keywords": "mHealth ECG biomedical sensors data processing prototype",
@@ -881,7 +1632,7 @@
     },
     {
         "title": "Mathematical Game Theory",
-        "description": "Applies game theory to economic competition, political conflicts, and cooperative strategies.",
+        "description": "Applies game theory to economic competition and political conflicts.",
         "duration": "6 weeks",
         "tag": "Programming",
         "keywords": "game theory Nash equilibrium cooperation strategies applications",
@@ -889,7 +1640,7 @@
     },
     {
         "title": "Legal Aspects of Conducting Business in Russia",
-        "description": "Overview of Russian corporate law, foreign investment regulations, and trade practices.",
+        "description": "Overview of Russian corporate law and foreign investment regulations.",
         "duration": "5 weeks",
         "tag": "Law",
         "keywords": "Russian law business forms investment trade regulation",
@@ -897,7 +1648,7 @@
     },
     {
         "title": "Fundamentals of the Chinese Character Writing. Part 1",
-        "description": "Introduction to Chinese character evolution, radicals, and basic calligraphy principles.",
+        "description": "Introduction to Chinese character evolution and basic calligraphy principles.",
         "duration": "6 weeks",
         "tag": "Languages",
         "keywords": "Chinese characters history radicals six scripts calligraphy",
@@ -905,7 +1656,7 @@
     },
     {
         "title": "Competitive Programmer’s Core Skills",
-        "description": "5-course specialization teaching competition algorithms in geometry, numbers, and strings.",
+        "description": "5-course specialization teaching competition algorithms in geometry and numbers.",
         "duration": "6 weeks",
         "tag": "Programming",
         "keywords": "competitive programming algorithms geometry graphs numbers strings",
@@ -913,7 +1664,7 @@
     },
     {
         "title": "General Pathophysiology",
-        "description": "Studies disease mechanisms, systemic disorders, and pathological process classification.",
+        "description": "Studies disease mechanisms and pathological process classification.",
         "duration": "6 weeks",
         "tag": "Medicine",
         "keywords": "pathophysiology disease mechanisms inflammation immunity stress",
@@ -921,7 +1672,7 @@
     },
     {
         "title": "Protists: Evolution and Ecology of Microbial Eukaryotes",
-        "description": "Explores microbial diversity, evolutionary biology, and ecological roles of protists.",
+        "description": "Explores microbial diversity and ecological roles of protists.",
         "duration": "6 weeks",
         "tag": "Medicine",
         "keywords": "protists taxonomy ecology evolution microscopy unicellular",
@@ -929,7 +1680,7 @@
     },
     {
         "title": "Russia and Nuclear Arms Control",
-        "description": "Analyzes Russia's nuclear policy, arms treaties, and global non-proliferation efforts.",
+        "description": "Analyzes Russia's nuclear policy and global non-proliferation efforts.",
         "duration": "7 weeks",
         "tag": "Law",
         "keywords": "nuclear weapons arms control Russia US non-proliferation treaties",
@@ -937,7 +1688,7 @@
     },
     {
         "title": "Political Governance and Public Policy in Russia",
-        "description": "Examines Russian political system dynamics, policy formation, and development challenges.",
+        "description": "Examines Russian political system dynamics and policy formation.",
         "duration": "6 weeks",
         "tag": "Law",
         "keywords": "Russian politics institutions public policy administration civil society",
@@ -945,7 +1696,7 @@
     },
     {
         "title": "Constitutional Reforms in Russia",
-        "description": "Discusses post-Soviet constitutional evolution, human rights, and political structure analysis.",
+        "description": "Discusses post-Soviet constitutional evolution and human rights.",
         "duration": "5 weeks",
         "tag": "Law",
         "keywords": "Russian constitution amendments governance separation of powers courts",
