@@ -20,6 +20,8 @@ def login():
             user_id = name + "|" + surname
             with open('users.json', 'r', encoding='utf-8') as f:
                 users = json.load(f)
+            with open('courses.json', 'r', encoding='utf-8') as f:
+                courses_titles = [i['title'] for i in json.load(f)]
 
             st.session_state.id = user_id
             st.session_state.logged_in = True
@@ -30,7 +32,7 @@ def login():
                 user = users[user_id]
                 st.session_state.liked_courses = user['liked_courses']
                 st.session_state.interests = user['interests']
-                st.session_state.interest_courses = user['interest_courses']
+                st.session_state.interest_courses = [i for i in user['interest_courses'] if i in courses_titles]
             else:
                 st.session_state.liked_courses = []
                 st.session_state.interests = None

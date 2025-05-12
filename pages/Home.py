@@ -148,7 +148,8 @@ if "name" in st.session_state and "surname" in st.session_state:
 
     else:
         with st.form("revise interest form"):
-            interests = st.text_input("Changed your mind? No worries! You can change your interests here!").strip()
+            interests = st.text_input("Changed your mind? No worries! You can change your interests here!",
+                                      value=st.session_state.interests).strip()
             if st.form_submit_button():
                 st.session_state.interests = interests
                 if interests:
